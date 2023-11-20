@@ -1,53 +1,105 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="main.css" />
-    <link rel="stylesheet" href="styles.css" />
-    <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
-    <title>ITRUM test</title>
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
-    />
-  </head>
-  <body>
-    <!-- подключаем js -->
-    <script src="./importJSfiles.js"> </script>
-    <script src="./app/common/jsreloader.js" id="JSinject"> </script>
-    <div class="task">
-      Active list
-      <div>
-        select all
-        <input type="checkbox" id="selectAll" onclick="selectAllTasks()" />
-      </div>
-    </div>
+    <head>
+        <link rel="stylesheet" href="src/styles/global.css" />
+        <link rel="stylesheet" href="src/styles/promo.css" />
+        <link rel="stylesheet" href="src/styles/header.css" />
+        <link rel="stylesheet" href="src/styles/about.css" />
+        <title>Погнали?</title>
+    </head>
+    <body>
+        <script src="./app/importJSfiles.js"></script>
+        <main class="container">
+            <section class="promo">
+                <header class="header">
+                    <div class="header__navigation">
+                        <img src="./asserts/headerSpace/logo_full_white.svg" alt="letsGologo" />
 
-    <input id="input" type="text" placeholder="название задачи" />
-    <button onclick="addTask()">соrаw</button>
-    <button
-      class="deleteButtonHidden"
-      id="delete"
-      onclick="deleteTask()"
-      style="background-color: tomato"
-    >
-      удалить
-    </button>
-    <div id="inputWarning" class="deletedTasksListHidden">
-      <span style="color: red">Please set some value for task</span>
-    </div>
-    <div class="deletedList">
-      <div class="deletedListHead">
-        Deleted list
-        <span
-          id="icon"
-          class="material-symbols-outlined"
-          onclick="changeBasketStyle()"
-        >
-          expand_circle_down
-        </span>
-      </div>
-      <div id="deletedTasksList" class="basketStyle"></div>
-    </div>
-  </body>
+                        <svg
+                            width="44"
+                            height="2"
+                            viewBox="0 0 44 2"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <rect width="44" height="2" />
+                        </svg>
+
+                        <a href="" class="nav">о сервисе</a>
+                        <a href="" class="nav">направления</a>
+                        <a href="" class="nav">попутчики</a>
+                    </div>
+
+                    <div class="header__contact">
+                        <button class="header__call">
+                            <img src="./asserts/promo/icon_call.svg" alt="call_icon" />
+                        </button>
+                        <button>
+                            <img src="./asserts/promo/icon_mail.svg" alt="mail_icon" /></button
+                        ><button>авторизация</button>
+                    </div>
+                </header>
+
+                <div class="promo__container">
+                    <h1 class="promo__slogan">В путешествие с крутыми попутчиками!</h1>
+                    <img src="./asserts/promo/traveller-illustration-desktop 1.png" alt="traveller-icon" />
+
+                    <aside class="promo__text">
+                        <h3>&#171;Лучшее приложение, что я видел в жизни&#187;</h3>
+
+                        <p>Мурат Эльтазин</p>
+                        <span>главный редактор газеты &#171;гаджетлайф&#187; </span>
+                    </aside>
+                </div>
+
+                <dl class="promo__variants">
+                    <div class="promo__variant special_orange">
+                        <dt>1</dt>
+                        <dd>Выберите направление</dd>
+                    </div>
+                    <div class="promo__variant special_yellow_darker">
+                        <dt>2</dt>
+                        <dd>Изучите идеи путешественников</dd>
+                    </div>
+                    <div class="promo__variant special_yellow_dark">
+                        <dt>3</dt>
+                        <dd>Находите тех, кто похож на вас</dd>
+                    </div>
+                    <div class="promo__variant basic_yellow">
+                        <dt>4</dt>
+                        <dd>Путешествуйте вместе!</dd>
+                    </div>
+                </dl>
+            </section>
+            <section class="about">
+                <header class="header about__header">
+                    <div class="header__navigation">
+                        <img src="./asserts/headerSpace/logo_full_black.png" alt="letsGologo" />
+
+                        <svg
+                            width="44"
+                            height="2"
+                            viewBox="0 0 44 2"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <rect width="44" height="2" />
+                        </svg>
+
+                        <a href="" class="nav">о сервисе</a>
+                        <a href="" class="nav">направления</a>
+                        <a href="" class="nav">попутчики</a>
+                    </div>
+
+                    <div class="header__contact">
+                        <button class="header__call">
+                            <img src="./asserts/promo/icon_call.svg" alt="call_icon" />
+                        </button>
+                        <button>
+                            <img src="./asserts/promo/icon_mail.svg" alt="mail_icon" /></button
+                        ><button>авторизация</button>
+                    </div>
+                </header>
+                <div>
+
+                </div>
+            </section>
+        </main>
+    </body>
 </html>

@@ -1,0 +1,21 @@
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    background: url("../../asserts/promo/globe-back-desktop.png");
+    width: 1440px;
+    background-repeat: no-repeat, no-repeat;
+}
+
+.about__header {
+    padding: 20px 60px 20px 60px;
+    background-color: #fff;
+    font-weight: 500;
+    font-family: letsGoMedium;
+    color: var(--basic_blue);
+}
+
+.about__header svg {
+    fill: #192144;
+}
