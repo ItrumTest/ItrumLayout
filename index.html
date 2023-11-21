@@ -5,6 +5,8 @@
         <link rel="stylesheet" href="src/styles/promo.css" />
         <link rel="stylesheet" href="src/styles/header.css" />
         <link rel="stylesheet" href="src/styles/about.css" />
+        <link rel="stylesheet" href="src/styles/directions.css" />
+        <link rel="stylesheet" href="src/styles/team.css" />
         <title>Погнали?</title>
     </head>
     <body>
@@ -23,9 +25,9 @@
                             <rect width="44" height="2" />
                         </svg>
 
-                        <a href="" class="nav">о сервисе</a>
-                        <a href="" class="nav">направления</a>
-                        <a href="" class="nav">попутчики</a>
+                        <a href="#about" class="nav" onclick="scrollTo1(730)">о сервисе</a>
+                        <a href="#" class="nav" onclick="scrollTo1(1475)">направления</a>
+                        <a href="#team" class="nav" onclick="scrollTo1(1830)">попутчики</a>
                     </div>
 
                     <div class="header__contact">
@@ -40,7 +42,9 @@
 
                 <div class="promo__container">
                     <h1 class="promo__slogan">В путешествие с крутыми попутчиками!</h1>
-                    <img src="./asserts/promo/traveller-illustration-desktop 1.png" alt="traveller-icon" />
+                    <img
+                        src="./asserts/promo/traveller-illustration-desktop 1.png"
+                        alt="traveller-icon" />
 
                     <aside class="promo__text">
                         <h3>&#171;Лучшее приложение, что я видел в жизни&#187;</h3>
@@ -69,7 +73,7 @@
                     </div>
                 </dl>
             </section>
-            <section class="about">
+            <section id="about" class="about">
                 <header class="header about__header">
                     <div class="header__navigation">
                         <img src="./asserts/headerSpace/logo_full_black.png" alt="letsGologo" />
@@ -82,9 +86,9 @@
                             <rect width="44" height="2" />
                         </svg>
 
-                        <a href="" class="nav">о сервисе</a>
-                        <a href="" class="nav">направления</a>
-                        <a href="" class="nav">попутчики</a>
+                        <a href="#about" class="nav">о сервисе</a>
+                        <a href="#directions" class="nav">направления</a>
+                        <a href="#team" class="nav">попутчики</a>
                     </div>
 
                     <div class="header__contact">
@@ -96,8 +100,101 @@
                         ><button>авторизация</button>
                     </div>
                 </header>
-                <div>
-
+                <div class="about__container">
+                    <img
+                        class="about__container__img"
+                        src="./asserts/about/back.png"
+                        alt="about_decoration_element" />
+                    <div class="about__container__description">
+                        <h2 class="about__container__description__slogan">О сервисе</h2>
+                        <p class="about__container__description__text">
+                            Любое путешествие веселее с попутчиками, которые на одной волне с тобой!
+                            Делитесь своими идеями путешествий и черпайте вдохновение в чужих.
+                        </p>
+                        <h4>
+                            А если найдете кого-то близкого по духу
+                            <!-- &#x2015 -->
+                            <!-- <br/> -->
+                            скорее зовите в совместный трип!
+                        </h4>
+                        <a class="about__link" href="#"
+                            ><span>Подробнее</span>
+                            <img src="./asserts/Polygon 1.svg" alt="about__icon"
+                        /></a>
+                    </div>
+                    <img
+                        class="about__container__call"
+                        src="./asserts/about/img_back.png"
+                        alt="about_service" />
+                </div>
+            </section>
+            <section id="directions" class="directions">
+                <img
+                    class="directions__container__img"
+                    src="./asserts/countries/Rectangle 14.png"
+                    alt="directions_decoration_element" />
+                <div class="directions__container">
+                    <div class="directions__container__countries">
+                        <img src="./asserts/countries/cart_coutry.png" alt="Thailand_icon" />
+                        <img src="./asserts/countries/cart_coutry-1.png" alt="Thailand_icon" />
+                        <img src="./asserts/countries/cart_coutry-2.png" alt="Thailand_icon" />
+                        <img class="gradientback" src="./asserts/countries/fade 1.png" />
+                    </div>
+                    <div class="directions__container__description">
+                        <h2 class="directions__container__description__slogan">Направления</h2>
+                        <p class="directions__container__description__text">
+                            Мы не продаем туры
+                            <!-- <br/> -->
+                            и ничего не рекламируем.
+                            <!-- <br/> -->
+                            Люди сами пишут о странах,
+                            <!-- <br/> -->
+                            куда хотели бы отправиться
+                            <!-- <br/> -->
+                            и чем можно там заняться.
+                        </p>
+                        <a class="about__link" href="#"
+                            ><span>Подробнее</span>
+                            <img src="./asserts/Polygon 1.svg" alt="about__icon"
+                        /></a>
+                    </div>
+                </div>
+                <img
+                    class="directions__container__img__flags"
+                    src="./asserts/countries/flags-back 1.png"
+                    alt="about_decoration_element" />
+            </section>
+            <section id="team" class="team">
+                <div class="team__container">
+                    <img
+                        class="about__container__img"
+                        src="./asserts/about/back.png"
+                        alt="about_decoration_element" />
+                    <div class="about__container__description">
+                        <h2 class="about__container__description__slogan">Попутчики</h2>
+                        <p class="about__container__description__text">
+                            Все мы индивидуальны и у каждого
+                            <!-- <br/> -->
+                            свой взгляд на идеальный отдых.
+                            <!-- <br/> -->
+                            Одному нужен пляж и коктейль,
+                            <!-- <br/> -->
+                            а другому маршрут для хайкинга.
+                        </p>
+                        <h4>
+                            Теперь можно легко
+                            <!-- <br/> -->
+                            найти единомышленников!
+                        </h4>
+                        <a class="about__link" href="#"
+                            ><span>Показать всех</span>
+                            <img src="./asserts/Polygon 1.svg" alt="about__icon"
+                        /></a>
+                    </div>
+                    <img
+                        class="about__container__call"
+                        src="./asserts/about/img_back.png"
+                        alt="about_service" />
                 </div>
             </section>
         </main>

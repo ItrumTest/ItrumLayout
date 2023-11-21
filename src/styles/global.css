@@ -1,4 +1,8 @@
 @font-face {
+    font-family: letsGoLight;
+    src: url("../..//fonts/Blogger_Sans-Light.otf");
+}
+@font-face {
     font-family: letsGo;
     src: url("../..//fonts/Blogger_Sans.otf");
 }
@@ -11,12 +15,14 @@
     src: url("../..//fonts/Blogger_Sans-Medium.otf");
 }
 
+
 html {
     box-sizing: border-box;
     font-size: 100%;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
 }
 
 *,
@@ -59,7 +65,7 @@ body {
     line-height: var(--line-height-m);
     font-family: letsGo, sans-serif;
     color: #fff;
-    background-color: #161c34;
+    /* background-color: #161c34; */
 }
 
 h1,

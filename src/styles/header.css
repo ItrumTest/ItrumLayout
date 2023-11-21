@@ -11,6 +11,13 @@
     align-items: center;
     justify-content: center;
 }
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: white;
+}
 
 .header__navigation svg {
     fill: white;

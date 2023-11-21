@@ -12,7 +12,9 @@
     flex-direction: column;
     background: url("../../asserts/promo/globe-back-desktop.png");
     width: 1440px;
-    background-repeat: no-repeat, no-repeat;
+    background-repeat: no-repeat;
+    background-size: 1440px 780px;
+    z-index: 100;
 }
 
 .promo h1 {
@@ -58,7 +60,7 @@
 
 .promo__variants {
     display: flex;
-    position: fixed;
+    position: absolute;
     top: 470px;
     font-weight: 700;
     font-size: 24px;
