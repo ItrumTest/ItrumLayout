@@ -19,6 +19,7 @@
     justify-content: center;
     z-index: 1;
     width: 100%;
+    padding-left: 130px;
 }
 
 .directions__container__img {
