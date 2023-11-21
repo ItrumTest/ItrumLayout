@@ -1,5 +1,6 @@
 const files = [
     "../src/common/scrollTo.js",
+    "../src/common/isModal.js",
     
 ];
 
