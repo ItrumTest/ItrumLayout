@@ -1,0 +1,74 @@
+.interested {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  flex-direction: column;
+  background: url("../../asserts/about/background_about.png");
+  width: 1440px;
+  background-repeat: no-repeat;
+  background-size: 1440px 750px;
+  min-height: 750px;
+  z-index: 50;
+  margin-top: -70px;
+}
+
+.interested p {
+  text-align: center;
+  padding: 60px 0px;
+}
+
+.interested p a {
+  color: var(--basic_yellow);
+  text-decoration: underline;
+  font-family: letsGoLight;
+  padding-bottom: 70px;
+}
+
+.interested__slogan {
+  display: flex;
+  padding-top: 208px;
+  font-size: 45px;
+  line-height: 45px;
+  color: var(--special_orange);
+  font-family: letsGoMedium;
+  letter-spacing: 1.2px;
+}
+
+.interested__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1175px;
+}
+
+.interested__container input {
+  width: 100%;
+  border-radius: 20px 0px 0px 20px;
+  height: 81px;
+  border: none;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  padding-left: 36px;
+  font-family: letsGoLight;
+}
+
+.interested__link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 0px 20px 20px 0px;
+  padding: 32px 30px;
+  min-width: 330px;
+  max-height: 81px;
+  font-size: 24px;
+  font-family: letsGoMedium;
+  background: var(--basic_yellow);
+}
+
+.interested__link span {
+  color: var(--basic_blue);
+}
