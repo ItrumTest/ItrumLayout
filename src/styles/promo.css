@@ -79,6 +79,7 @@
     border-radius: 12px;
     margin-left: -30px;
 }
+
 .promo__variant:nth-child(4) {
     display: flex;
     flex-direction: row-reverse;
@@ -90,10 +91,12 @@
     border-radius: 12px;
     margin-left: -30px;
 }
+
 .promo__variant dt {
     width: 80px;
     color: #fff;
 }
+
 .promo__variant dd {
     width: 200px;
 }
@@ -101,12 +104,23 @@
 .special_orange {
     background: var(--special_orange);
 }
+
 .special_yellow_darker {
     background: var(--special_yellow_darker);
 }
+
 .special_yellow_dark {
     background: var(--special_yellow_dark);
 }
+
 .basic_yellow {
     background: var(--basic_yellow);
+}
+
+.basic_blue {
+    background: var(--basic_blue);
+}
+
+.basic_blue_contacts {
+    background: var(--basic_blue_contacts);
 }
