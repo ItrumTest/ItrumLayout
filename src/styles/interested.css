@@ -84,7 +84,7 @@
   width: 800px;
 }
 
-.interested__contacts button {
+.interested__contacts__button {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -98,10 +98,10 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  width: 50%;
+  width: 100%;
 }
 
-.interested__contacts__contact span {
+.interested__contacts__contact__span {
   font-size: 28px;
   font-style: normal;
   font-weight: 700;
