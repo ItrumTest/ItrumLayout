@@ -5,13 +5,17 @@
   flex-direction: column;
 }
 
+.promo__tablet__image {
+  display: none;
+}
+
 .promo {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
   background: url("../../asserts/promo/globe-back-desktop.png");
-  width: 1440px;
+  max-width: 1440px;
   background-repeat: no-repeat;
   background-size: 1440px 780px;
   z-index: 100;

@@ -18,7 +18,7 @@
   padding-top: 140px;
   align-items: center;
   justify-content: space-between;
-  width: 800px;
+  width: 900px;
 }
 
 .geolocation__link {
@@ -48,7 +48,7 @@
   padding-left: 30px;
   text-transform: uppercase;
   color: var(--basic_blue);
-  width: 550px;
+  max-width: 550px;
 }
 
 .geolocation__contacts__contact {
