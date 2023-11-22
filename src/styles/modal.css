@@ -5,7 +5,7 @@
   flex-direction: column;
   position: absolute;
 
-  max-width: 750px;
+  width: 750px;
   max-height: 525px;
   background-color: #fff;
   border-radius: 30px;
