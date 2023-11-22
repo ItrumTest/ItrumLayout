@@ -282,7 +282,7 @@
               </li>
             </ul>
             <div class="business__modal__container">
-              <button id="modal" onclick="isModal()">
+              <button id="modal" onclick="isModal(true)">
                 <img src="./asserts/plans/icon_businessman.svg" alt="" />
               </button>
               <label for="modal">Показать тарифы для бизнеса</label>
@@ -297,9 +297,37 @@
             <img src="./asserts/plans/back (1).png" alt="" />
           </div>
         </div>
-        <div class="business__modal">
+        <div id="modalContainer" class="business__modal__wrapper">
           <h2 class="business__modal__slogan">Бизнес-тарифы</h2>
-        <div></div>
+          <ul class="business__modal__options">
+            <li class="business__modal__option">
+              <div class="business__modal__option__container">
+                <span class="business__modal__option__container__description">Реклама у блоггера</span>
+                <span class="business__modal__option__container__price">300 000 руб./пост</span>
+              </div>
+            </li>
+            <li class="business__modal__option">
+              <div class="business__modal__option__container">
+                <span class="business__modal__option__container__description">Накрутка подписчиков</span>
+                <span class="business__modal__option__container__price">от 1 руб./шт.</span>
+              </div>
+            </li>
+            <li class="business__modal__option">
+              <div class="business__modal__option__container">
+                <span class="business__modal__option__container__description">Лайки от ботов</span>
+                <span class="business__modal__option__container__price">от 20 коп./лайк</span>
+              </div>
+            </li>
+            <li class="business__modal__option">
+              <div class="business__modal__option__container">
+                <span class="business__modal__option__container__description">Ваш продакт-плейсмент </span>
+                <span class="business__modal__option__container__price">Индивидуально</span>
+              </div>
+            </li>
+          </ul>
+          <button class="business__modal__close-btn" onclick="isModal(false)">
+            Закрыть окно
+          </button>
         </div>
       </section>
       <section id="interested" class="interested">
