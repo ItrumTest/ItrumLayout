@@ -1,0 +1,74 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 46px 60px 30px 60px;
+    width: 100%;
+}
+
+.header__navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: white;
+}
+
+.header__navigation svg {
+    fill: white;
+    margin-left: 30px;
+}
+
+.nav {
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 34px;
+    text-transform: uppercase;
+}
+
+.header__contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: letsGoMedium;
+}
+
+.header__contact button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--basic_blue);
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 20px;
+    border: none;
+}
+
+/* 
+!спросить
+.header__contact :nth-child(1) {
+    background: var(--special_orange);
+} */
+
+.header__call{
+    background: var(--special_orange);
+}
+.header__contact :nth-child(2) {
+    background-color: var(--special_yellow_dark);
+}
+.header__contact :nth-child(3) {
+    color: var(--basic_blue);
+    font-weight: 700;
+    background-color: var(--basic_yellow);
+    width: auto;
+    border-radius: 25px;
+    padding: 0px 30px;
+    text-transform: uppercase;
+}

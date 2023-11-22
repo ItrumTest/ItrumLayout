@@ -1,0 +1,122 @@
+.interested {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  flex-direction: column;
+  background: url("../../asserts/about/background_about.png");
+  width: 1440px;
+  background-repeat: no-repeat;
+  background-size: 1440px 850px;
+  min-height: 850px;
+  z-index: 50;
+  margin-top: -70px;
+}
+
+.interested__signUp {
+  text-align: center;
+  font-size: 28px;
+  line-height: 34px;
+  font-family: letsGoLight;
+  font-weight: 300;
+  padding: 60px 0px;
+}
+
+.interested__signUp a {
+  color: var(--basic_yellow);
+  text-decoration: underline;
+  font-family: letsGoLight;
+  padding-bottom: 70px;
+}
+
+.interested__slogan {
+  display: flex;
+  padding-top: 208px;
+  font-size: 45px;
+  line-height: 45px;
+  color: var(--special_orange);
+  font-family: letsGoMedium;
+  letter-spacing: 1.2px;
+}
+
+.interested__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1175px;
+}
+
+.interested__container input {
+  width: 100%;
+  border-radius: 20px 0px 0px 20px;
+  height: 81px;
+  border: none;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  padding-left: 36px;
+  font-family: letsGoLight;
+}
+
+.interested__link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 0px 20px 20px 0px;
+  padding: 32px 30px;
+  min-width: 330px;
+  max-height: 81px;
+  font-size: 24px;
+  font-family: letsGoMedium;
+  background: var(--basic_yellow);
+}
+
+.interested__link span {
+  color: var(--basic_blue);
+}
+
+.interested__contacts {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 800px;
+}
+
+.interested__contacts__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: none;
+}
+
+.interested__contacts__contact {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.interested__contacts__contact__span {
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  padding-left: 30px;
+  text-transform: uppercase;
+  color: var(--basic_yellow);
+}
+
+.interested__container__description__text {
+  font-size: 28px;
+  line-height: 34px;
+  font-family: letsGoLight;
+  font-weight: 300;
+  font-style: normal;
+  padding-bottom: 40px;
+  padding-top: 70px;
+}
