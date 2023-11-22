@@ -1,0 +1,132 @@
+ul {
+  position: relative;
+  list-style-type: none;
+  font-family: letsGoLight;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px;
+  color: #444;
+  width: 900px;
+  margin: 0px;
+  padding-bottom: 34px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px;
+  line-height: 68px;
+  border-top: 1px solid #e1e3e9;
+  margin-left: 57px;
+  margin-top: -1px;
+}
+
+li :nth-last-child() {
+  border-bottom: 1px solid #e1e3e9;
+}
+
+.business__container__plans {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: 68px;
+  width: 68px;
+  left: 0px;
+  border-radius: 50%;
+}
+
+.business {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  flex-direction: column;
+  background: url("../../asserts/countries/background_coutry.png");
+  width: 1440px;
+  background-repeat: no-repeat;
+  margin-top: -70px;
+  min-height: 750px;
+  background-size: 1440px 750px;
+  z-index: 60;
+}
+
+.business__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+  max-width: 1180px;
+  width: 100%;
+}
+
+.business__container__description {
+  display: flex;
+  /* padding: 80px 150px; */
+  flex-direction: column;
+  align-items: flex-start;
+  z-index: 2;
+  /* border: 1px solid red; */
+}
+
+.business__container__slogan {
+  display: flex;
+  padding-top: 175px;
+  font-size: 45px;
+  line-height: 45px;
+  color: var(--special_orange);
+  padding-bottom: 134px;
+  font-family: letsGoMedium;
+  letter-spacing: 1.2px;
+}
+
+.business__modal__container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.business__modal__container button {
+  cursor: pointer;
+  border: none;
+  background-color: #e2e5f2;
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+}
+.business__modal__container label {
+  cursor: pointer;
+  font-family: letsGoMedium;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  color: #132576;
+  padding-left: 21px;
+}
+
+.business__container__images {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-left: -400px;
+}
+
+.business__container__images__content {
+  display: flex;
+  position: absolute;
+  /* padding-left: 400px; */
+  padding-left: 70%;
+  padding-top: 50px;
+  z-index: 100;
+}
+.business__container__images img {
+    position: absolute;
+    top: -200px;
+    /* left: -150px; */
+}
+

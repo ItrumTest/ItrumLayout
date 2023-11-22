@@ -1,53 +1,406 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="main.css" />
-    <link rel="stylesheet" href="styles.css" />
-    <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
-    <title>ITRUM test</title>
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
-    />
+    <link rel="stylesheet" href="src/styles/global.css" />
+    <link rel="stylesheet" href="src/styles/promo.css" />
+    <link rel="stylesheet" href="src/styles/header.css" />
+    <link rel="stylesheet" href="src/styles/about.css" />
+    <link rel="stylesheet" href="src/styles/directions.css" />
+    <link rel="stylesheet" href="src/styles/team.css" />
+    <link rel="stylesheet" href="src/styles/business.css" />
+    <link rel="stylesheet" href="src/styles/interested.css" />
+    <link rel="stylesheet" href="src/styles/geolocation.css" />
+    <link rel="stylesheet" href="src/styles/footer.css" />
+    <title>Погнали?</title>
   </head>
   <body>
-    <!-- подключаем js -->
-    <script src="./importJSfiles.js"> </script>
-    <script src="./app/common/jsreloader.js" id="JSinject"> </script>
-    <div class="task">
-      Active list
-      <div>
-        select all
-        <input type="checkbox" id="selectAll" onclick="selectAllTasks()" />
-      </div>
-    </div>
+    <script src="./app/importJSfiles.js"></script>
+    <main class="container">
+      <section class="promo">
+        <header class="header">
+          <div class="header__navigation">
+            <img
+              src="./asserts/headerSpace/logo_full_white.svg"
+              alt="letsGologo"
+            />
 
-    <input id="input" type="text" placeholder="название задачи" />
-    <button onclick="addTask()">соrаw</button>
-    <button
-      class="deleteButtonHidden"
-      id="delete"
-      onclick="deleteTask()"
-      style="background-color: tomato"
-    >
-      удалить
-    </button>
-    <div id="inputWarning" class="deletedTasksListHidden">
-      <span style="color: red">Please set some value for task</span>
-    </div>
-    <div class="deletedList">
-      <div class="deletedListHead">
-        Deleted list
-        <span
-          id="icon"
-          class="material-symbols-outlined"
-          onclick="changeBasketStyle()"
-        >
-          expand_circle_down
-        </span>
-      </div>
-      <div id="deletedTasksList" class="basketStyle"></div>
-    </div>
+            <svg
+              width="44"
+              height="2"
+              viewBox="0 0 44 2"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect width="44" height="2" />
+            </svg>
+
+            <a href="#about" class="nav" onclick="scrollTo1(730)">о сервисе</a>
+            <a href="#" class="nav" onclick="scrollTo1(1475)">направления</a>
+            <a href="#team" class="nav" onclick="scrollTo1(1830)">попутчики</a>
+          </div>
+
+          <div class="header__contact">
+            <button class="header__call">
+              <img src="./asserts/promo/icon_call.svg" alt="call_icon" />
+            </button>
+            <button>
+              <img
+                src="./asserts/promo/icon_mail.svg"
+                alt="mail_icon"
+              /></button
+            ><button>авторизация</button>
+          </div>
+        </header>
+
+        <div class="promo__container">
+          <h1 class="promo__slogan">В путешествие с крутыми попутчиками!</h1>
+          <img
+            src="./asserts/promo/traveller-illustration-desktop 1.png"
+            alt="traveller-icon"
+          />
+
+          <aside class="promo__text">
+            <h3>&#171;Лучшее приложение, что я видел в жизни&#187;</h3>
+
+            <p>Мурат Эльтазин</p>
+            <span>главный редактор газеты &#171;гаджетлайф&#187; </span>
+          </aside>
+        </div>
+
+        <dl class="promo__variants">
+          <div class="promo__variant special_orange">
+            <dt>1</dt>
+            <dd>Выберите направление</dd>
+          </div>
+          <div class="promo__variant special_yellow_darker">
+            <dt>2</dt>
+            <dd>Изучите идеи путешественников</dd>
+          </div>
+          <div class="promo__variant special_yellow_dark">
+            <dt>3</dt>
+            <dd>Находите тех, кто похож на вас</dd>
+          </div>
+          <div class="promo__variant basic_yellow">
+            <dt>4</dt>
+            <dd>Путешествуйте вместе!</dd>
+          </div>
+        </dl>
+      </section>
+      <section id="about" class="about">
+        <header class="header about__header">
+          <div class="header__navigation">
+            <img
+              src="./asserts/headerSpace/logo_full_black.png"
+              alt="letsGologo"
+            />
+
+            <svg
+              width="44"
+              height="2"
+              viewBox="0 0 44 2"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect width="44" height="2" />
+            </svg>
+
+            <a href="#about" class="nav">о сервисе</a>
+            <a href="#directions" class="nav">направления</a>
+            <a href="#team" class="nav">попутчики</a>
+          </div>
+
+          <div class="header__contact">
+            <button class="header__call">
+              <img src="./asserts/promo/icon_call.svg" alt="call_icon" />
+            </button>
+            <button>
+              <img
+                src="./asserts/promo/icon_mail.svg"
+                alt="mail_icon"
+              /></button
+            ><button>авторизация</button>
+          </div>
+        </header>
+        <div class="about__container">
+          <img
+            class="about__container__img"
+            src="./asserts/about/back.png"
+            alt="about_decoration_element"
+          />
+          <div class="about__container__description">
+            <h2 class="about__container__description__slogan">О сервисе</h2>
+            <p class="about__container__description__text">
+              Любое путешествие веселее с попутчиками, которые на одной волне с
+              тобой! Делитесь своими идеями путешествий и черпайте вдохновение в
+              чужих.
+            </p>
+            <h4>
+              А если найдете кого-то близкого по духу
+              <!-- &#x2015 -->
+              <!-- <br/> -->
+              скорее зовите в совместный трип!
+            </h4>
+            <a class="about__link" href="#"
+              ><span>Подробнее</span>
+              <img src="./asserts/Polygon 1.svg" alt="about__icon"
+            /></a>
+          </div>
+          <img
+            class="about__container__call"
+            src="./asserts/about/img_back.png"
+            alt="about_service"
+          />
+        </div>
+      </section>
+      <section id="directions" class="directions">
+        <img
+          class="directions__container__img"
+          src="./asserts/countries/Rectangle 14.png"
+          alt="directions_decoration_element"
+        />
+        <div class="directions__container">
+          <div class="directions__container__countries">
+            <img
+              src="./asserts/countries/cart_coutry.png"
+              alt="Thailand_icon"
+            />
+            <img
+              src="./asserts/countries/cart_coutry-1.png"
+              alt="Thailand_icon"
+            />
+            <img
+              src="./asserts/countries/cart_coutry-2.png"
+              alt="Thailand_icon"
+            />
+            <img class="gradientback" src="./asserts/countries/fade 1.png" />
+          </div>
+          <div class="directions__container__description">
+            <h2 class="directions__container__description__slogan">
+              Направления
+            </h2>
+            <p class="directions__container__description__text">
+              Мы не продаем туры
+              <!-- <br/> -->
+              и ничего не рекламируем.
+              <!-- <br/> -->
+              Люди сами пишут о странах,
+              <!-- <br/> -->
+              куда хотели бы отправиться
+              <!-- <br/> -->
+              и чем можно там заняться.
+            </p>
+            <a class="about__link" href="#"
+              ><span>Подробнее</span>
+              <img src="./asserts/Polygon 1.svg" alt="about__icon"
+            /></a>
+          </div>
+        </div>
+        <img
+          class="directions__container__img__flags"
+          src="./asserts/countries/flags-back 1.png"
+          alt="about_decoration_element"
+        />
+      </section>
+      <section id="team" class="team">
+        <div class="team__container">
+          <img
+            class="team__container__img"
+            src="./asserts/about/back.png"
+            alt="about_decoration_element"
+          />
+          <img
+            class="team__container__img__photo1"
+            src="./asserts/traveles/smolov-back-desktop.png"
+            alt="about_decoration_element__photo1"
+          />
+          <img
+            class="team__container__img__photo2"
+            src="./asserts/traveles/rogovaya-back-desktop.png"
+            alt="about_decoration_element__photo2"
+          />
+          <div class="team__container__wrapper">
+            <div class="team__container__description">
+              <h2 class="team__container__description__slogan">Попутчики</h2>
+              <p class="about__container__description__text">
+                Все мы индивидуальны и у каждого
+                <br />
+                свой взгляд на идеальный отдых.
+                <br />
+                Одному нужен пляж и коктейль,
+                <br />
+                а другому маршрут для хайкинга.
+              </p>
+              <h4>
+                Теперь можно легко
+                <br />
+                найти единомышленников!
+              </h4>
+              <a class="about__link" href="#"
+                ><span>Показать всех</span>
+                <img src="./asserts/Polygon 1.svg" alt="about__icon"
+              /></a>
+            </div>
+            <div class="team__container__users">
+              <img
+                class="about__container__call"
+                src="./asserts/traveles/user card.png"
+                alt="team_user_1"
+              />
+              <img
+                class="about__container__call"
+                src="./asserts/traveles/user card-1.png"
+                alt="team_user_2"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="business" class="business">
+        <h2 class="business__container__slogan">Добавьте свой профиль</h2>
+        <div class="business__container">
+          <div class="business__container__description">
+            <ul>
+              <li>
+                <div>
+                  <span class="business__container__plans special_orange"
+                    >1</span
+                  >
+                  <span>Базовое размещение</span>
+                </div>
+                <span>Бесплатно</span>
+              </li>
+              <li>
+                <span class="business__container__plans special_yellow_dark"
+                  >2</span
+                >
+                <span>Вывод на первых позициях</span>
+                <span>99 руб./мес</span>
+              </li>
+              <li>
+                <span class="business__container__plans basic_yellow">3</span>
+                <span>Кастомный цвет карточки</span>
+                <span>59 руб./мес</span>
+              </li>
+            </ul>
+            <div class="business__modal__container">
+              <button id="modal" onclick="isModal()">
+                <img src="./asserts/plans/icon_businessman.svg" alt="" />
+              </button>
+              <label for="modal">Показать тарифы для бизнеса</label>
+            </div>
+          </div>
+          <div class="business__container__images">
+            <img
+              class="business__container__images__content"
+              src="./asserts/plans/rates.png"
+              alt=""
+            />
+            <img src="./asserts/plans/back (1).png" alt="" />
+          </div>
+        </div>
+      </section>
+      <section id="interested" class="interested">
+        <h2 class="interested__slogan">Заинтересовались?</h2>
+
+        <p class="interested__signUp">
+          Зарегистрируйтесь, это быстро и бесплатно!
+          <br />
+          Уже зарегистрированы? Тогда скорее <a href="#">авторизуйтесь.</a>
+        </p>
+        <div class="interested__container">
+          <input type="text" placeholder="E-mail" />
+          <a class="interested__link" href="#"
+            ><span>Регистрация</span>
+            <img src="./asserts/Polygon 1.svg" alt="about__icon"
+          /></a>
+        </div>
+        <p class="interested__container__description__text">
+          Остались вопросы? Мы с радостью на них ответим!
+        </p>
+        <div class="interested__contacts">
+          <div class="interested__contacts__contact">
+            <button class="interested__contacts__button basic_blue">
+              <img
+                src="./asserts/interested/icon_telephone.svg"
+                alt="contacts__phone__image"
+              />
+            </button>
+            <span class="interested__contacts__contact__span"
+              >8 800 555-86-28</span
+            >
+          </div>
+          <div class="interested__contacts__contact">
+            <button class="interested__contacts__button basic_blue">
+              <img
+                src="./asserts/interested/icon_mail.svg"
+                alt="contacts__phone__image"
+              />
+            </button>
+            <span class="interested__contacts__contact__span"
+              >mail@htmlacademy.ru</span
+            >
+          </div>
+        </div>
+      </section>
+      <section class="geolocation">
+        <div class="geolocation__contacts">
+          <div class="interested__contacts__contact">
+            <button class="interested__contacts__button basic_blue">
+              <img
+                src="./asserts/footer/map_mark.svg"
+                alt="contacts__map__mark__image"
+              />
+            </button>
+            <span class="geolocation__contacts__contact__span"
+              >ул. Большая Конюшенная, 19/8</span
+            >
+          </div>
+          <div class="geolocation__contacts__contact">
+            <a class="geolocation__link" href="#"
+              ><span>Проложить маршрут</span>
+              <img src="./asserts/Polygon 1.svg" alt="about__icon"
+            /></a>
+          </div>
+        </div>
+      </section>
+      <section class="footer">
+        <div class="geolocation__contacts"></div>
+        <div class="footer__container">
+          <footer class="header footer__wrapper">
+            <div class="header__navigation">
+              <img
+                src="./asserts/headerSpace/logo_full_black.png"
+                alt="letsGologo"
+              />
+            </div>
+
+            <div class="footer__social">
+              <a href="#facebook">
+                <img src="./asserts/footer/facebook.svg" alt="facebook__image"
+              /></a>
+              <a href="#vk">
+                <img src="./asserts/footer/vkontakte.svg" alt="vk__image" />
+              </a>
+              <a href="#insta">
+                <img src="./asserts/footer/insta.svg" alt="insta_icon" />
+              </a>
+            </div>
+
+            <div class="footer__contact">
+              <span class="footer__developBy">Разработано</span>
+              <svg
+                width="27"
+                height="34"
+                viewBox="0 0 27 34"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M13.6426 0.0157537L13.5 0L0 1.40733V26.0129L13.5 34L27 26.0129V1.40733L13.6426 0.0157537ZM25.2344 25.0151L13.5 31.9573L1.76561 25.0151V14.9293L13.4507 21.8451L13.4701 23.0984L5.45351 18.3548L5.44295 19.5801L13.4894 24.3885L13.5088 25.675L5.46408 20.9174L5.45351 22.1427L13.5 26.9511L21.6239 22.1182V20.8929V16.909L25.2432 14.7595L25.2344 25.0151ZM25.2344 13.4519L22.0147 15.3319L20.5325 16.2071L13.4666 12.0201L13.456 13.2454L19.4957 16.818L19.4429 16.8495L19.3126 16.9247L18.4536 17.4166L13.4666 14.4689L13.456 15.6942L17.3921 18.0222L16.4591 18.6314L16.438 18.6436L13.4666 16.902L13.456 18.1273L15.4029 19.2615L13.4155 20.4483L1.7973 13.5762L13.4349 6.61831L25.2344 13.4519ZM25.2344 12.2266L13.4401 5.31075L1.76561 12.2196V2.9897L13.5 1.76442L25.2344 2.9897V12.2266Z"
+                  fill="#192144"
+                />
+              </svg>
+            </div>
+          </footer>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
