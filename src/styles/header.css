@@ -1,72 +1,160 @@
 .header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 46px 60px 30px 60px;
-  width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 46px 60px 30px 60px;
+    width: 100%;
 }
 
 .header__navigation {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__navigation__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__navigation__list ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 a:link,
 a:visited {
-  color: white;
+    color: white;
 }
 
 .header__navigation svg {
-  fill: white;
-  margin-left: 30px;
+    fill: white;
+    margin-left: 30px;
 }
 
 .nav {
-  text-decoration: none;
-  font-size: 20px;
-  padding-left: 34px;
-  text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 34px;
+    text-transform: uppercase;
 }
 
 .header__contact {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: letsGoMedium;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: letsGoMedium;
 }
 
 .header__contact button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--basic_blue);
-  cursor: pointer;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  font-size: 20px;
-  border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--basic_blue);
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 20px;
+    border: none;
 }
 
 .header__call {
-  background: var(--special_orange);
+    background: var(--special_orange);
 }
 
 .header__contact :nth-child(2) {
-  background-color: var(--special_yellow_dark);
+    background-color: var(--special_yellow_dark);
 }
 
 .header__contact :nth-child(3) {
-  color: var(--basic_blue);
-  font-weight: 700;
-  background-color: var(--basic_yellow);
-  width: auto;
-  border-radius: 25px;
-  padding: 0px 30px;
-  text-transform: uppercase;
+    color: var(--basic_blue);
+    font-weight: 700;
+    background-color: var(--basic_yellow);
+    width: auto;
+    border-radius: 25px;
+    padding: 0px 30px;
+    text-transform: uppercase;
+}
+
+.burger{
+  display: none;
+  position: relative;
+  z-index: 50;
+  align-items: center;
+  justify-content: flex-end;
+  width: 30px;
+  height: 18px;
+}
+
+.burger span{
+  height: 2px;
+  width: 80%;
+  transform: scale(1);
+  /* background-color: #FAF6F2; */
+}
+
+.burger::before, .burger::after{
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background-color: #FAF6F2;
+  transition: all 0.3s ease 0s;
+}
+
+.burger::before { top: 0 }
+
+.burger::after { bottom: 0 }
+
+
+/* Добавляем класс active для анимации иконки бургера */
+.burger.active span { transform: scale(0) }
+
+.burger.active::before{
+  top: 50%;
+  transform: rotate(-45deg) translate(0, -50%);
+}
+
+.burger.active::after{
+  bottom: 50%;
+  transform: rotate(45deg) translate(0, 50%);
+}
+
+
+/* При разрешении экрана 768px и ниже, выводим на экран иконку бургера */
+@media (max-width: 768px) {
+
+  .burger { display: flex }
+
+  .nav{
+      display: none;
+      flex-direction: column;
+      position: fixed;
+      height: 100%;
+      width: 100%;
+      top: 0; bottom: 0; left: 0; right: 0;
+      z-index: 50;
+      overflow-y: auto;
+      padding: 50px 40px;
+      background-color: black;
+      animation: burgerAnimation 0.4s;
+  }
+
+  .nav ul{
+      flex-direction: column;
+      row-gap: 30px;
+  }
+}
+
+@keyframes burgerAnimation {
+  from {opacity: 0}
+  to {opacity: 1}
 }

@@ -1,0 +1,32 @@
+@media screen and (max-width: 770px) {
+    .header {
+        width: 768px;
+    }
+    .header__navigation__list {
+        display: none;
+    }
+    .header__contact :nth-child(2) {
+        display: none;
+    }
+    .header__contact :nth-child(1) {
+        display: none;
+    }
+
+    .header__navigation svg {
+        display: none;
+    }
+    .promo {
+        /* background-size: 768px 1080px; */
+        /* max-width: 500px; */
+        /* width: 770px; */
+        height: 1200px;
+        padding-top: 0px;
+    }
+    .promo__desktop__image {
+        display: none;
+        opacity: 0;
+    }
+    .promo__tablet__image {
+        display: block;
+    }
+}
