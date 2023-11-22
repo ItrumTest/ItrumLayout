@@ -16,8 +16,11 @@
     background-color: #fff;
     font-weight: 500;
     font-family: letsGoMedium;
-    color: var(--basic_blue);
     z-index: 1;
+}
+
+.about__header a {
+    color: var(--basic_blue);
 }
 
 .about__header svg {

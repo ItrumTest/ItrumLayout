@@ -34,7 +34,7 @@
               <rect width="44" height="2" />
             </svg>
 
-            <a href="#about" class="nav" onclick="scrollTo1(730)">о сервисе</a>
+            <a href="#" class="nav" onclick="scrollTo1(730)">о сервисе</a>
             <a href="#" class="nav" onclick="scrollTo1(1475)">направления</a>
             <a href="#" class="nav" onclick="scrollTo1(2160)">попутчики</a>
           </div>
@@ -55,7 +55,13 @@
         <div class="promo__container">
           <h1 class="promo__slogan">В путешествие с крутыми попутчиками!</h1>
           <img
-            src="./asserts/promo/traveller-illustration-desktop 1.png"
+            class="promo__desktop__image"
+            src="./asserts/promo/traveller-illustration-desktop_1.png"
+            alt="traveller-icon"
+          />
+          <img
+            class="promo__tablet__image"
+            src="./asserts/promo/traveller-illustration-tablet_1.png"
             alt="traveller-icon"
           />
 
@@ -82,7 +88,6 @@
           </div>
           <div class="promo__variant basic_yellow">
             <dt>4</dt>
-            <dd>Путешествуйте вместе!</dd>
           </div>
         </dl>
       </section>
@@ -103,9 +108,9 @@
               <rect width="44" height="2" />
             </svg>
 
-            <a href="#about" class="nav">о сервисе</a>
-            <a href="#directions" class="nav">направления</a>
-            <a href="#team" class="nav">попутчики</a>
+            <a href="#" class="nav" onclick="scrollTo1(730)">о сервисе</a>
+            <a href="#" class="nav" onclick="scrollTo1(1475)">направления</a>
+            <a href="#" class="nav" onclick="scrollTo1(2160)">попутчики</a>
           </div>
 
           <div class="header__contact">
@@ -141,7 +146,7 @@
             </h4>
             <a class="about__link" href="#"
               ><span>Подробнее</span>
-              <img src="./asserts/Polygon 1.svg" alt="about__icon"
+              <img src="./asserts/Polygon_1.svg" alt="about__icon"
             /></a>
           </div>
           <img
@@ -154,7 +159,7 @@
       <section id="directions" class="directions">
         <img
           class="directions__container__img"
-          src="./asserts/countries/Rectangle 14.png"
+          src="./asserts/countries/Rectangle_14.png"
           alt="directions_decoration_element"
         />
         <div class="directions__container">
@@ -171,7 +176,7 @@
               src="./asserts/countries/cart_coutry-2.png"
               alt="Thailand_icon"
             />
-            <img class="gradientback" src="./asserts/countries/fade 1.png" />
+            <img class="gradientback" src="./asserts/countries/fade_1.png" alt="fade_for_image"/>
           </div>
           <div class="directions__container__description">
             <h2 class="directions__container__description__slogan">
@@ -190,13 +195,13 @@
             </p>
             <a class="about__link" href="#"
               ><span>Подробнее</span>
-              <img src="./asserts/Polygon 1.svg" alt="about__icon"
+              <img src="./asserts/Polygon_1.svg" alt="about__icon"
             /></a>
           </div>
         </div>
         <img
           class="directions__container__img__flags"
-          src="./asserts/countries/flags-back 1.png"
+          src="./asserts/countries/flags-back_1.png"
           alt="about_decoration_element"
         />
       </section>
@@ -236,18 +241,18 @@
               </h4>
               <a class="about__link" href="#"
                 ><span>Показать всех</span>
-                <img src="./asserts/Polygon 1.svg" alt="about__icon"
+                <img src="./asserts/Polygon_1.svg" alt="about__icon"
               /></a>
             </div>
             <div class="team__container__users">
               <img
                 class="about__container__call"
-                src="./asserts/traveles/user card.png"
+                src="./asserts/traveles/user_card.png"
                 alt="team_user_1"
               />
               <img
                 class="about__container__call"
-                src="./asserts/traveles/user card-1.png"
+                src="./asserts/traveles/user_card-1.png"
                 alt="team_user_2"
               />
             </div>
@@ -294,7 +299,7 @@
               src="./asserts/plans/rates.png"
               alt=""
             />
-            <img src="./asserts/plans/back (1).png" alt="" />
+            <img src="./asserts/plans/back_(1).png" alt="" />
           </div>
         </div>
         <div id="modalContainer" class="business__modal__wrapper">
@@ -302,26 +307,42 @@
           <ul class="business__modal__options">
             <li class="business__modal__option">
               <div class="business__modal__option__container">
-                <span class="business__modal__option__container__description">Реклама у блоггера</span>
-                <span class="business__modal__option__container__price">300 000 руб./пост</span>
+                <span class="business__modal__option__container__description"
+                  >Реклама у блоггера</span
+                >
+                <span class="business__modal__option__container__price"
+                  >300 000 руб./пост</span
+                >
               </div>
             </li>
             <li class="business__modal__option">
               <div class="business__modal__option__container">
-                <span class="business__modal__option__container__description">Накрутка подписчиков</span>
-                <span class="business__modal__option__container__price">от 1 руб./шт.</span>
+                <span class="business__modal__option__container__description"
+                  >Накрутка подписчиков</span
+                >
+                <span class="business__modal__option__container__price"
+                  >от 1 руб./шт.</span
+                >
               </div>
             </li>
             <li class="business__modal__option">
               <div class="business__modal__option__container">
-                <span class="business__modal__option__container__description">Лайки от ботов</span>
-                <span class="business__modal__option__container__price">от 20 коп./лайк</span>
+                <span class="business__modal__option__container__description"
+                  >Лайки от ботов</span
+                >
+                <span class="business__modal__option__container__price"
+                  >от 20 коп./лайк</span
+                >
               </div>
             </li>
             <li class="business__modal__option">
               <div class="business__modal__option__container">
-                <span class="business__modal__option__container__description">Ваш продакт-плейсмент </span>
-                <span class="business__modal__option__container__price">Индивидуально</span>
+                <span class="business__modal__option__container__description"
+                  >Ваш продакт-плейсмент
+                </span>
+                <span class="business__modal__option__container__price"
+                  >Индивидуально</span
+                >
               </div>
             </li>
           </ul>
@@ -342,7 +363,7 @@
           <input type="text" placeholder="E-mail" />
           <a class="interested__link" href="#"
             ><span>Регистрация</span>
-            <img src="./asserts/Polygon 1.svg" alt="about__icon"
+            <img src="./asserts/Polygon_1.svg" alt="about__icon"
           /></a>
         </div>
         <p class="interested__container__description__text">
@@ -373,7 +394,7 @@
           </div>
         </div>
       </section>
-      <section class="geolocation">
+      <div class="geolocation">
         <div class="geolocation__contacts">
           <div class="interested__contacts__contact">
             <button class="interested__contacts__button basic_blue">
@@ -389,12 +410,12 @@
           <div class="geolocation__contacts__contact">
             <a class="geolocation__link" href="#"
               ><span>Проложить маршрут</span>
-              <img src="./asserts/Polygon 1.svg" alt="about__icon"
+              <img src="./asserts/Polygon_1.svg" alt="about__icon"
             /></a>
           </div>
         </div>
-      </section>
-      <section class="footer">
+      </div>
+      <div class="footer">
         <div class="geolocation__contacts"></div>
         <div class="footer__container">
           <footer class="header footer__wrapper">
@@ -433,7 +454,7 @@
             </div>
           </footer>
         </div>
-      </section>
+      </div>
     </main>
   </body>
 </html>
