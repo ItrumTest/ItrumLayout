@@ -1,32 +1,99 @@
 @media screen and (max-width: 770px) {
-    .header {
-        width: 768px;
-    }
-    .header__navigation__list {
-        display: none;
-    }
-    .header__contact :nth-child(2) {
-        display: none;
-    }
-    .header__contact :nth-child(1) {
-        display: none;
-    }
+  .header {
+    width: 768px;
+  }
 
-    .header__navigation svg {
-        display: none;
-    }
-    .promo {
-        /* background-size: 768px 1080px; */
-        /* max-width: 500px; */
-        /* width: 770px; */
-        height: 1200px;
-        padding-top: 0px;
-    }
-    .promo__desktop__image {
-        display: none;
-        opacity: 0;
-    }
-    .promo__tablet__image {
-        display: block;
-    }
+  .header__navigation__list {
+    display: none;
+  }
+
+  .header__contact :nth-child(2) {
+    display: none;
+  }
+
+  .header__contact :nth-child(1) {
+    display: none;
+  }
+
+  .header__navigation svg {
+    display: none;
+  }
+
+  .promo {
+    background: url("../../../../asserts/media/768/promo/back_1.png");
+    height: 1915px;
+  }
+
+  .promo__slogan {
+    top: 162px;
+  }
+
+  .promo__desktop__image {
+    display: none;
+  }
+
+  .promo__tablet__image {
+    position: relative;
+    display: block;
+    left: 80px;
+    top: 300px;
+  }
+
+  .promo__desktop__tablet__image {
+    display: block;
+    position: absolute;
+    padding-top: 452px;
+    width: 850px;
+    left: -40px;
+    z-index: -1;
+  }
+
+  .promo__container {
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+  }
+
+  .promo__text {
+    position: absolute;
+    text-align: left;
+    left: 0px;
+    top: 450px;
+  }
+
+  .promo__variants {
+    padding-left: 85px;
+    top: 840px;
+    flex-wrap: wrap;
+  }
+
+  .promo__variant:not(:nth-child(4) :nth-child(1)) {
+    height: 140px;
+    flex-direction: column-reverse;
+  }
+  .promo__variant dt {
+    padding-left: 40px;
+  }
+
+  .promo__variant:nth-child(3) {
+    margin-top: -2px;
+    border-radius: 0px 12px 12px 12px !important;
+  }
+
+  .promo__variant:nth-child(2) {
+    border-radius: 12px 12px 0px 0px !important;
+  }
+
+  .promo__variant:nth-child(1) {
+    border-radius: 12px 12px 0px 0px !important;
+  }
+
+  .promo__variant:nth-child(4) {
+    margin-top: -2px;
+    border-radius: 0px 0px 12px 0px !important;
+  }
 }
