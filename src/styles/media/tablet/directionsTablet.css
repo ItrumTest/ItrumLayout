@@ -1,0 +1,49 @@
+@media screen and (max-width: 770px) {
+  .directions {
+    position: relative;
+    flex-direction: column;
+    background: url("../../../../asserts/media/768/countries/back_2.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 30px;
+    min-height: 1169px;
+    background-size: 768px 1169px;
+    z-index: 80;
+  }
+
+  .directions__container__description__slogan {
+    padding-bottom: 57px;
+  }
+
+  .directions__container {
+    flex-direction: column-reverse;
+    width: 100%;
+    padding: 0px;
+  }
+
+  .directions__container__description {
+    width: 100%;
+    padding: 0px;
+    padding-left: 95px;
+    padding-top: 110px;
+  }
+
+  .directions__container__img {
+    top: 505px;
+  }
+
+  .gradientback {
+    display: none;
+  }
+
+  .directions__container__countries {
+    position: absolute;
+    top: 530px;
+  }
+
+  .directions__container__link {
+    margin-top: 520px;
+    margin-left: 10px;
+    width: calc(100% - 110px);
+  }
+}
