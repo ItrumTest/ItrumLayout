@@ -4,7 +4,7 @@
   justify-content: flex-start;
   position: relative;
   flex-direction: column;
-  background: url("../../asserts/countries/background_coutry.png");
+  background: url("../../../../asserts/countries/background_coutry.png");
   width: 1440px;
   background-repeat: no-repeat;
   margin-top: -70px;
@@ -73,8 +73,7 @@
   letter-spacing: 1.2px;
 }
 
-.directions__container__link {
-}
+.directions__container__link {}
 
 .gradientback {
   position: absolute;

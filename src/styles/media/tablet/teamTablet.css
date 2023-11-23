@@ -1,0 +1,68 @@
+@media screen and (max-width: 770px) {
+  .team {
+    position: relative;
+    flex-direction: column;
+    background: url("../../../../asserts/media/768/team/back_3.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 50px;
+    min-height: 1369px;
+    background-size: 768px 1369px;
+    z-index: 70;
+  }
+
+  .team__container__wrapper {
+    padding-left: 40px;
+    flex-direction: column;
+  }
+
+  .team__container__img {
+    top: 250px;
+  }
+
+  .team__container__img__photo2 {
+    top: 250px;
+    left: 420px;
+  }
+
+  .team__container__img__photo1 {
+    top: 600px;
+    left: 60px;
+  }
+
+  .team__container__description {
+    width: 100%;
+    height: 700px;
+    padding: 0px;
+    margin: 0px;
+    padding-top: 120px;
+  }
+
+  .team__container__description h4 {
+    padding-bottom: 40px;
+  }
+
+  .team__container__link {
+    margin-top: 540px;
+    margin-left: -20px;
+    width: calc(100% + 5px);
+  }
+  .team__container__users {
+    width: 100%;
+    height: 100%;
+  }
+
+  .team__container__user {
+    display: block;
+    position: absolute;
+    top: 580px;
+    left: 50px;
+  }
+
+  .team__container__user1 {
+    display: block;
+    position: absolute;
+    left: 380px;
+    top: 580px;
+  }
+}
