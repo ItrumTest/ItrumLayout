@@ -68,9 +68,12 @@
   }
 
   .promo__variants {
-    padding-left: 85px;
-    top: 840px;
+    display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    top: 840px;
+    padding-left: 20px;
   }
 
   .promo__variant:not(:nth-child(4) :nth-child(1)) {

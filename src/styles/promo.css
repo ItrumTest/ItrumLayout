@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  overflow-x: hidden;
 }
 
 .promo__tablet__image {
@@ -23,6 +24,10 @@
   background-repeat: no-repeat;
   background-size: 1440px 780px;
   z-index: 100;
+}
+
+.promo dl {
+  margin: 0px !important;
 }
 
 .promo h1 {
