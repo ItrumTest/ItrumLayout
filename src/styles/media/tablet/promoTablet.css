@@ -37,14 +37,16 @@
     display: block;
     left: 80px;
     top: 300px;
+    overflow-x: hidden;
   }
 
   .promo__desktop__tablet__image {
     display: block;
     position: absolute;
     padding-top: 452px;
-    width: 850px;
+    max-width: 826px;
     left: -40px;
+    overflow-x: hidden;
     z-index: -1;
   }
 

@@ -20,11 +20,12 @@
 }
 
 .about__header a {
-    color: var(--basic_blue);
+    color: var(--basic_blue) !important;
+    z-index: 3;
 }
 
 .about__header svg {
-    fill: #192144;
+    fill: #192144 !important;
 }
 
 .about__container {
@@ -50,6 +51,7 @@
 .about__container__call {
     position: relative;
     top: -13px;
+    height: 633px;
 }
 
 .about__container__img {
@@ -91,4 +93,8 @@
     font-family: letsGoMedium;
     font-weight: 700;
     color: var(--basic_blue);
+}
+
+.about__container__call__tablet__decoration {
+    display: none;
 }
