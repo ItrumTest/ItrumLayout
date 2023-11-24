@@ -64,11 +64,9 @@
 
 .business__container__description {
   display: flex;
-  /* padding: 80px 150px; */
   flex-direction: column;
   align-items: flex-start;
   z-index: 2;
-  /* border: 1px solid red; */
 }
 
 .business__container__slogan {
@@ -119,7 +117,6 @@
 .business__container__images__content {
   display: flex;
   position: absolute;
-  /* padding-left: 400px; */
   padding-left: 70%;
   padding-top: 50px;
   z-index: 100;
@@ -127,5 +124,12 @@
 .business__container__images img {
   position: absolute;
   top: -200px;
-  /* left: -150px; */
+}
+
+.business__container__tablet__images__content {
+  display: none;
+}
+
+.business__container__decoration__tablet__rubl {
+  display: none;
 }
