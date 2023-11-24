@@ -1,0 +1,74 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  flex-direction: column;
+  background: url("../../asserts/footer/background3.png");
+  width: 1440px;
+  background-repeat: no-repeat;
+  min-height: 750px;
+  z-index: 30;
+  margin-top: -120px;
+}
+
+.footer__container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  top: calc(100% - 220px);
+  flex-direction: column;
+  width: 1440px;
+  background-repeat: no-repeat;
+  background-size: 1440px 100px;
+  min-height: 152px;
+  z-index: 40;
+}
+
+.footer__wrapper {
+  border-radius: 60px 60px 0px 0px;
+  padding: 20px 60px 20px 60px;
+  background-color: #fff;
+  height: 100px;
+  font-weight: 500;
+  font-family: letsGoMedium;
+  color: var(--basic_blue);
+  z-index: 1;
+}
+
+.footer__developBy {
+  font-family: letsGoLight;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  padding-right: 24px;
+}
+
+.footer__social a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 62px;
+  width: 62px;
+  border-radius: 50%;
+}
+.footer__social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: letsGoMedium;
+}
+
+.footer iframe {
+  width: 1440px;
+  height: 584px;
+  display: block;
+}
