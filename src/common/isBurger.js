@@ -1,7 +1,11 @@
+// burger animation listener
 document.querySelector(".burger").addEventListener("click", function () {
   this.classList.toggle("active");
   document.querySelector(".nav").classList.toggle("open");
 });
+
+// burger scroll change styles on header
+// https://developer.mozilla.org/en-US/docs/Web/API/Document/scroll_event
 
 let lastKnownScrollPosition = 0;
 let ticking = false;
@@ -16,6 +20,7 @@ function doSomething(scrollPos) {
 
   if (scrollPos) {
     // header_position_fixed.setAttribute("class", "header__scroll");
+    header_position_fixed.setAttribute("class", "header header__background__scroll");
     burger.removeAttribute("class");
     // header_position_fixed.removeAttribute("class");
     // header_position_fixed.setAttribute("class", "header tablet__header");
@@ -38,6 +43,7 @@ function doSomething(scrollPos) {
   burger.setAttribute("class", "burger");
   header_image.removeAttribute("class");
   desktop_image.removeAttribute("class");
+  header_position_fixed.setAttribute("class", "header header__background");
   // header_position_fixed.removeAttribute("class");
   // header_position_fixed.setAttribute("class", "header");
 
