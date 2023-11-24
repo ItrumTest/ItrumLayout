@@ -1,0 +1,16 @@
+@import url("./global.css");
+@import url("./media/desktop/about.css");
+@import url("./media/desktop/header.css");
+@import url("./media/desktop/promo.css");
+@import url("./media/desktop/directions.css");
+@import url("./media/desktop/team.css");
+@import url("./media/desktop/business.css");
+@import url("./media/desktop/interested.css");
+@import url("./media/desktop/geolocation.css");
+@import url("./media/desktop/footer.css");
+@import url("./media/desktop/modal.css");
+@import url("./media/tablet/promoTablet.css");
+@import url("./media/tablet/aboutTablet.css");
+@import url("./media/tablet/directionsTablet.css");
+@import url("./media/tablet/teamTablet.css");
+@import url("./media/tablet/businessTablet.css");
