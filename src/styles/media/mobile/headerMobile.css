@@ -1,0 +1,12 @@
+@media screen and (max-width: 320px) {
+    .header {
+        /* width: 320px;
+        height: 100px; */
+        /* position: fixed; */
+        /* z-index: 1000; */
+      }
+      .header__background {
+        max-width: 320px;
+        height: 100px;
+      }
+}

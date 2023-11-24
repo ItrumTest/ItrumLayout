@@ -13,11 +13,18 @@
   </head>
   <body>
     <main class="container">
-      <section class="promo">
-        <header class="header">
+        <header id="header" class="header header__background">
           <div class="header__navigation">
             <img
+              id="desktop_image"
+              class="header__navigation__logo__desktop"
               src="./asserts/headerSpace/logo_full_white.svg"
+              alt="letsGologo"
+            />
+            <img
+              id="header__image" 
+              class="header__navigation__logo__tablet"
+              src="./asserts/headerSpace/logo_full_black.png"
               alt="letsGologo"
             />
 
@@ -41,14 +48,14 @@
                   >
                 </li>
                 <li>
-                  <a href="#" class="nav" onclick="scrollTo1(2160)"
+                  <a href="#" class="nav" onclick="scrollTo1(2170)"
                     >попутчики</a
                   >
                 </li>
               </ul>
             </nav>
           </div>
-          <div class="burger">
+          <div id="burger" class="burger">
             <span></span>
           </div>
 
@@ -60,9 +67,10 @@
               <img src="./asserts/promo/icon_mail.svg" alt="mail_icon" />
             </button>
             <button>авторизация</button>
-          </div>
-        </header>
-
+            </div>
+            </header>
+      <div class="burger__navigation__for__tablet"></div>
+      <section class="promo">
         <div class="promo__container">
           <h1 class="promo__slogan">В путешествие с крутыми попутчиками!</h1>
           <img
@@ -107,6 +115,7 @@
             <dd>Путешествуйте вместе!</dd>
           </div>
         </dl>
+      
       </section>
       <section id="about" class="about">
                 <header class="header about__header">
@@ -132,7 +141,7 @@
                                   >
                               </li>
                               <li>
-                                  <a href="#" class="nav" onclick="scrollTo1(2160)">попутчики</a>
+                                  <a href="#" class="nav" onclick="scrollTo1(2170)">попутчики</a>
                               </li>
                           </ul>
                       </nav>
@@ -466,13 +475,8 @@
                 </div>
             </div>
     </main>
-    <script>
-      document.querySelector(".burger").addEventListener("click", function () {
-        this.classList.toggle("burger_active");
-        document.querySelector(".nav").classList.toggle("open");
-      });
-      // scrollListener()
-    </script>
-    <script src="./app/importJSfiles.js"></script>
+    <script src="./src/common/isBurger.js"></script>
+    <script src="./src/common/isModal.js"></script>
+    <script src="./src/common/scrollTo.js"></script>
   </body>
 </html>

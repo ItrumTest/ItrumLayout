@@ -1,0 +1,40 @@
+@media screen and (max-width: 770px) {
+  .header__scroll {
+    display: flex;
+    position: fixed;
+    /* top: 0px; */
+    align-items: center;
+    justify-content: space-between;
+    padding: 46px 60px 30px 60px;
+    width: 770px;
+    z-index: 1000;
+  }
+
+  .header__background {
+    background-color: #182044;
+  }
+
+  /* .burger__navigation__for__tablet {
+    display: block;
+    position: absolute;
+    z-index: 200;
+    padding-top: 100px;
+    width: 100px;
+    background-color: red;
+    height: 400px;
+    border: 1px solid red;
+  } */
+
+  /* .header__scroll__color {
+    background-color: #fff;
+  }  */
+  /* .header_for_tablet {
+    display: block;
+    position: absolute;
+    align-items: center;
+    justify-content: space-between;
+    padding: 46px 60px 30px 60px;
+    border: 1px solid red;
+    width: 768px;
+  } */
+}

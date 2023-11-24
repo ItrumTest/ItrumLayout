@@ -7,7 +7,7 @@
   background: url("../../asserts/footer/background3.png");
   width: 1440px;
   background-repeat: no-repeat;
-  min-height: 750px;
+  min-height: 650px;
   z-index: 30;
   margin-top: -120px;
 }
@@ -17,7 +17,7 @@
   align-items: center;
   justify-content: flex-start;
   position: absolute;
-  top: calc(100% - 220px);
+  top: calc(100% - 120px);
   flex-direction: column;
   width: 1440px;
   background-repeat: no-repeat;

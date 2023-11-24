@@ -4,6 +4,7 @@
   justify-content: center;
   flex-direction: column;
   overflow: hidden;
+  position: relative;
 }
 
 .promo__tablet__image {
@@ -152,4 +153,12 @@
 
 .basic_blue_contacts {
   background: var(--basic_blue_contacts);
+}
+
+.header__navigation__logo__tablet {
+  display: none;
+}
+
+.burger__navigation__for__tablet {
+  /* display: none; */
 }

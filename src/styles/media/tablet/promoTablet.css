@@ -1,6 +1,9 @@
 @media screen and (max-width: 770px) {
   .header {
     width: 768px;
+    height: 100px;
+    /* position: fixed; */
+    /* z-index: 1000; */
   }
 
   .header__navigation__list {
@@ -21,8 +24,12 @@
 
   .promo {
     background: url("../../../../asserts/media/768/promo/back_1.png");
-    height: 1915px;
+    /* background: none; */
+    height: 2115px;
+    background-size: 768px 2045px;
+    width: 768px;
     overflow: hidden;
+    z-index: 0;
   }
 
   .promo__slogan {
@@ -101,5 +108,10 @@
   .promo__variant:nth-child(4) {
     margin-top: -2px;
     border-radius: 0px 0px 12px 0px !important;
+  }
+
+  .header__navigation__logo__tablet__onScroll {
+    display: block;
+    transition: 0.2s ease-in-out;
   }
 }

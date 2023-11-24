@@ -95,7 +95,7 @@
   background-color: #f3f4f8;
 }
 
-.active {
+.active__modal {
     opacity: 1;
     z-index: 100;
 }
