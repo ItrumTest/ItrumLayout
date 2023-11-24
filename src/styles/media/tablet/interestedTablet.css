@@ -1,13 +1,37 @@
 @media screen and (max-width: 770px) {
-    .interested {
-        position: relative;
-        flex-direction: column;
-        background: url("../../../../asserts/media/768/business/back_4.png");
-        background-repeat: no-repeat;
-        width: 100%;
-        padding-top: 50px;
-        min-height: 668px;
-        background-size: 768px 668px;
-        z-index: 60;
-      }
+  .interested {
+    background: url("../../../../asserts/media/768/interested/back_5.png");
+    width: 100%;
+    margin-top: -70px;
+    min-height: 842px;
+    background-size: 768px 842px;
+  }
+
+  .interested__slogan {
+    padding-top: 133px;
+  }
+
+  .interested__container {
+    max-width: calc(536px + 80px);
+  }
+
+  .interested__container input { 
+  }
+
+  .interested__link span {
+    opacity: 0;
+  }
+  .interested__link {
+    min-width: 80px;
+    max-width: 80px;
+  }
+  .interested__link img {
+    position: relative;
+    left: -125px;
+  }
+
+  .interested__contacts {
+    flex-direction: column;
+    padding-left: 75px;
+  }
 }
