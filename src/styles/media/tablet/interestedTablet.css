@@ -1,0 +1,13 @@
+@media screen and (max-width: 770px) {
+    .interested {
+        position: relative;
+        flex-direction: column;
+        background: url("../../../../asserts/media/768/business/back_4.png");
+        background-repeat: no-repeat;
+        width: 100%;
+        padding-top: 50px;
+        min-height: 668px;
+        background-size: 768px 668px;
+        z-index: 60;
+      }
+}

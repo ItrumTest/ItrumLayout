@@ -1,12 +1,10 @@
 @media screen and (max-width: 770px) {
   .about {
-    background: none;
     position: absolute;
+    background: none;
     max-width: 100%;
-    background-repeat: no-repeat;
-    background-size: none;
     z-index: 100;
-    margin-top: -1800px;
+    margin-top: -1900px;
     overflow: hidden;
   }
 
