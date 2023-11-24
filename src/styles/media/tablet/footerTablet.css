@@ -1,0 +1,15 @@
+@media screen and (max-width: 770px) {
+  .footer {
+    min-height: 650px;
+  }
+
+  .footer iframe {
+    width: 768px;
+    height: 581px;
+    display: block;
+  }
+
+  .footer__container {
+    top: calc(100% - 120px);
+  }
+}

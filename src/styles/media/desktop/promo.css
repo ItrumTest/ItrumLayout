@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .promo__tablet__image {

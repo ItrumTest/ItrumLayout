@@ -4,13 +4,13 @@
   justify-content: flex-start;
   position: relative;
   flex-direction: column;
-  background: url("../../asserts/about/background_about.png");
+  background: url("../../../../asserts/interested/background_white.png");
   width: 1440px;
   background-repeat: no-repeat;
   background-size: 1440px 850px;
   min-height: 850px;
-  z-index: 50;
   margin-top: -70px;
+  z-index: 50;
 }
 
 .interested__signUp {

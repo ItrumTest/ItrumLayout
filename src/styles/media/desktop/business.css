@@ -44,12 +44,12 @@
   justify-content: flex-start;
   position: relative;
   flex-direction: column;
-  background: url("../../asserts/countries/background_coutry.png");
+  background: url("../../../../asserts/countries/background_coutry.png");
   width: 1440px;
   background-repeat: no-repeat;
   margin-top: -70px;
-  min-height: 750px;
-  background-size: 1440px 750px;
+  min-height: 850px;
+  background-size: 1440px 850px;
   z-index: 60;
 }
 
@@ -57,9 +57,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  z-index: 1;
   max-width: 1180px;
   width: 100%;
+  z-index: 1;
 }
 
 .business__container__description {
