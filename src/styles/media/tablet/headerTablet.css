@@ -1,32 +1,10 @@
 @media screen and (max-width: 770px) {
-  .header__scroll {
-    display: flex;
-    /* top: 0px; */
-    align-items: center;
-    justify-content: space-between;
-    padding: 46px 60px 30px 60px;
-    width: 770px;
-    height: 100px;
-    z-index: 1000;
-  }
-
   .header__background {
     position: fixed;
     left: 0px;
     top: 0px;
     z-index: 100;
     background-color: #182044;
-  }
-  .header__background__scroll {
-    position: fixed;
-    /* left: 0px; */
-    top: 0px;
-    z-index: 100;
-    background-color: #fff;
-  }
-
-  .burger__navigation__active {
-   display: block;
   }
 
   /* .header__scroll__color {
