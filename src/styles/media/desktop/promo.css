@@ -76,7 +76,7 @@
 .promo__variants {
   display: flex;
   position: absolute;
-  top: 470px;
+  top: 500px;
   font-weight: 700;
   font-size: 24px;
   color: var(--basic_blue);

@@ -4,7 +4,6 @@
   justify-content: space-between;
   padding: 46px 60px 30px 60px;
   max-width: 1440px;
-  /* padding-top: 100px; */
   width: 100%;
 }
 
@@ -21,6 +20,18 @@
 
 .header_for_tablet {
   display: none;
+}
+
+.burger__navigation__for__tablet {
+  display: none;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: #fff;
+  height: 910px;
+  border: 1px solid red;
+  z-index: 95;
+  transition: 0.2s ease-in-out;
 }
 
 .header__navigation {
