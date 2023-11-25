@@ -47,8 +47,9 @@
   line-height: 28px;
   padding-left: 30px;
   text-transform: uppercase;
-  color: var(--basic_blue);
   max-width: 550px;
+  cursor: pointer;
+  color: var(--basic_blue);
 }
 
 .geolocation__contacts__contact {
