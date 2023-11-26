@@ -7,6 +7,10 @@
     background-color: #182044;
   }
 
+  .header__contact__light button {
+    min-width: 185px;
+  }
+
   /* .header__scroll__color {
     background-color: #fff;
   }  */

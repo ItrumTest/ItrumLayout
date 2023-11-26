@@ -29,9 +29,8 @@
   width: 100%;
   background-color: #fff;
   height: 910px;
-  border: 1px solid red;
-  z-index: 95;
   transition: 0.2s ease-in-out;
+  z-index: 95;
 }
 
 .header__navigation {
@@ -82,6 +81,14 @@ a:visited {
   align-items: center;
   justify-content: center;
   font-family: letsGoMedium;
+}
+
+.header__contact__light {
+  font-family: letsGoLight;
+}
+
+.header__contact__light button :nth-child(3) {
+  min-width: 185px;
 }
 
 .header__contact button {

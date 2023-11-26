@@ -1,9 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Погнали?</title>
     <link rel="stylesheet" href="src/styles/main.css" />
-    <link rel="icon" href="data:;base64,=" />
     <meta charset="UTF-8" />
     <meta
       name="viewport"
@@ -40,15 +39,15 @@
             <nav class="header__navigation__list">
               <ul>
                 <li>
-                  <a href="#" class="nav" onclick="scrollTo1(730)">о сервисе</a>
+                  <a href="#1" class="nav" onclick="scrollTo1(730)">о сервисе</a>
                 </li>
                 <li>
-                  <a href="#" class="nav" onclick="scrollTo1(1475)"
+                  <a href="#2" class="nav" onclick="scrollTo1(1475)"
                     >направления</a
                   >
                 </li>
                 <li>
-                  <a href="#" class="nav" onclick="scrollTo1(2180)"
+                  <a href="#3" class="nav" onclick="scrollTo1(2180)"
                     >попутчики</a
                   >
                 </li>
@@ -73,20 +72,50 @@
         <nav class="burger__header">
             <ul>
               <li>
-                <a href="#" class="burger__nav" onclick="scrollTo1(730)">о сервисе</a>
+                <a href="#3" class="burger__nav" onclick="burgerScrollTo(730)">о сервисе</a>
               </li>
               <li>
-                <a href="#" class="burger__nav" onclick="scrollTo1(1475)"
+                <a href="#2" class="burger__nav" onclick="burgerScrollTo(1475)"
                   >направления</a
                 >
               </li>
               <li>
-                <a href="#" class="burger__nav" onclick="scrollTo1(2180)"
+                <a href="#1" class="burger__nav" onclick="burgerScrollTo(2180)"
                   >попутчики</a
                 >
               </li>
             </ul>
           </nav>
+          <div class="interested__contacts burger__contacts">
+            <div class="interested__contacts__contact">
+                <button id="phoneContacts" class="interested__contacts__button basic_blue">
+                    <img
+                        src="./asserts/interested/icon_telephone.svg"
+                        alt="contacts__phone__image" />
+                </button>
+                <label for="phoneContacts" class="interested__contacts__contact__span burger__contacts__label">8 800 555-86-28</label>
+            </div>
+            <div class="interested__contacts__contact">
+                <button id="mailToContacts" class="interested__contacts__button basic_blue">
+                    <img
+                        src="./asserts/interested/icon_mail.svg"
+                        alt="contacts__phone__image" />
+                </button>
+                <label for="mailToContacts" class="interested__contacts__contact__span burger__contacts__label">mail@htmlacademy.ru</label>
+            </div>
+            </div>
+            <div class="footer__social burger__social">
+                <a href="#facebook">
+                    <img class="facebook__image" src="./asserts/media/768/footer/icon_facebook.png" alt="facebook__image"
+                /></a>
+                <a href="#vk">
+                    <img class="vk__image" src="./asserts/media/768/footer/icon_vkontakte.png" alt="vk__image" />
+                </a>
+                <a href="#insta">
+                    <img class="insta__image" src="./asserts/media/768/footer/icon_instagram.png" alt="insta_icon" />
+                </a>
+            </div>
+      </div>
       </div>
       <section class="promo">
         <div class="promo__container">
@@ -420,12 +449,12 @@
                 </p>
                 <div class="interested__contacts">
                     <div class="interested__contacts__contact">
-                        <button id="phone" class="interested__contacts__button basic_blue">
+                        <button id="phone__interested" class="interested__contacts__button basic_blue">
                             <img
                                 src="./asserts/interested/icon_telephone.svg"
                                 alt="contacts__phone__image" />
                         </button>
-                        <label for="phone" class="interested__contacts__contact__span">8 800 555-86-28</label>
+                        <label for="phone__interested" class="interested__contacts__contact__span">8 800 555-86-28</label>
                     </div>
                     <div class="interested__contacts__contact">
                         <button id="mailTo" class="interested__contacts__button basic_blue">

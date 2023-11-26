@@ -19,6 +19,8 @@ document.querySelector(".burger").addEventListener("click", function () {
         document
             .getElementById("header__image")
             .classList.add("header__navigation__logo__tablet__onScroll");
+        //auth font weight
+        document.querySelector(".header__contact").classList.toggle("header__contact__light");
         return document.getElementById("header").classList.add("header__background__scroll");
     }
 
@@ -31,7 +33,8 @@ document.querySelector(".burger").addEventListener("click", function () {
     document
         .getElementById("header")
         .classList.replace("header__background__scroll", "header__background");
-
+    //auth font weight
+    document.querySelector(".header__contact").classList.toggle("header__contact__light");
     if (lastKnownScrollPosition) {
         //replace image source
         document
@@ -95,3 +98,12 @@ document.addEventListener("scroll", (event) => {
         ticking = true;
     }
 });
+
+function burgerScrollTo(value) {
+    scrollTo1(value);
+    document
+        .getElementById("burger__navigation__tablet")
+        .classList.toggle("burger__navigation__active");
+    document.querySelector(".burger").classList.toggle("active");
+    document.querySelector(".nav").classList.toggle("open");
+}
