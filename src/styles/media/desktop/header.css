@@ -1,0 +1,126 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 46px 60px 30px 60px;
+  max-width: 1440px;
+  width: 100%;
+}
+
+.header__scroll {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 46px 60px 30px 60px;
+  width: 768px;
+  position: fixed;
+  z-index: 1000;
+  background-color: #fff;
+}
+
+.header_for_tablet {
+  display: none;
+}
+
+.burger__navigation__for__tablet {
+  display: none;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: #fff;
+  height: 910px;
+  transition: 0.2s ease-in-out;
+  z-index: 95;
+}
+
+.header__navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.header__navigation__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__navigation__list ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+  color: white;
+}
+
+.header__navigation svg {
+  fill: white;
+  margin-left: 30px;
+}
+
+.nav {
+  text-decoration: none;
+  font-size: 20px;
+  padding-left: 34px;
+  text-transform: uppercase;
+}
+
+.header__contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: letsGoMedium;
+}
+
+.header__contact__light {
+  font-family: letsGoLight;
+}
+
+.header__contact__light button :nth-child(3) {
+  min-width: 185px;
+}
+
+.header__contact button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--basic_blue);
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 20px;
+  border: none;
+}
+.burger__navigation__button__container {
+  display: none;
+}
+
+.header__call {
+  background: var(--special_orange);
+}
+
+.header__contact :nth-child(2) {
+  background-color: var(--special_yellow_dark);
+}
+
+.header__contact :nth-child(3) {
+  color: var(--basic_blue);
+  font-weight: 700;
+  background-color: var(--basic_yellow);
+  width: auto;
+  border-radius: 25px;
+  padding: 16px 30px;
+  text-transform: uppercase;
+}

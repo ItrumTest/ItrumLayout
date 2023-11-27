@@ -1,0 +1,22 @@
+@media screen and (max-width: 770px) {
+  .geolocation {
+    background: url("../../../../asserts/media/768/geolocation/background_location.png");
+    width: 100%;
+    background-size: 768px 430px;
+    min-height: 430px;
+    z-index: 20;
+  }
+
+  .geolocation__contacts {
+    display: inline;
+    max-width: 618px;
+  }
+
+  .geolocation__contacts__contact {
+    padding-top: 44px;
+  }
+
+  .geolocation__link {
+    width: 100%;
+  }
+}

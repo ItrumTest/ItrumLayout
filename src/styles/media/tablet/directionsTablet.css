@@ -1,0 +1,59 @@
+@media screen and (max-width: 770px) {
+  .directions {
+    background: url("../../../../asserts/media/768/countries/back_2.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 768px 1160px;
+    min-height: 1260px;
+    z-index: 60;
+  }
+
+  .directions__container__countries__thai {
+    content: url("../../../../asserts/media/768/countries/cart_coutry.png");
+  }
+
+  .directions__container__countries__france {
+    content: url("../../../../asserts/media/768/countries/cart_coutry1.png");
+  }
+
+  .directions__container__countries__check {
+    content: url("../../../../asserts/media/768/countries/cart_coutry2.png");
+  }
+
+  .directions__container__description__slogan {
+    padding-bottom: 57px;
+  }
+
+  .directions__container {
+    flex-direction: column-reverse;
+    width: 100%;
+    padding: 0px;
+    padding-top: 130px;
+  }
+
+  .directions__container__description {
+    width: 616px;
+    padding: 0px;
+    margin: 0px;
+    z-index: 0;
+  }
+
+  .directions__container__img {
+    top: 505px;
+  }
+
+  .gradientback {
+    display: none;
+  }
+
+  .directions__container__countries {
+    position: absolute;
+    top: 530px;
+  }
+
+  .directions__container__link {
+    margin-top: 540px;
+    width: 100%;
+  }
+}
