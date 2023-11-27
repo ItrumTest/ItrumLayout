@@ -17,6 +17,7 @@
     font-weight: 500;
     line-height: 35px;
   }
+
   .burger__header ul {
     display: flex;
     align-items: center;
@@ -94,6 +95,7 @@
   .header__navigation__logo__tablet {
     content: url("../../../../asserts/media/320/header/Vector.svg");
   }
+
   .header__navigation__logo__tablet__onScroll {
     content: url("../../../../asserts/media/320/header/Vector.svg");
   }
@@ -101,6 +103,7 @@
   .header__contact {
     display: none;
   }
+
   .header__background {
     max-width: 320px;
     height: 73px;

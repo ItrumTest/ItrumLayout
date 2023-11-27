@@ -1,0 +1,82 @@
+@media screen and (max-width: 320px) {
+  .directions {
+    background: url("../../../../asserts/media/320/countries/Rectangle45.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 320px 1022px;
+    min-height: 1022px;
+    z-index: 60;
+    margin-top: -550px;
+  }
+
+  .directions__container__description {
+    max-width: 215px;
+    /* padding: 0px; */
+    /* padding-top: 100px; */
+  }
+  .directions__container__description__slogan {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    padding-bottom: 20px;
+  }
+
+  .directions__container__description__text {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px;
+    padding-bottom: 60px;
+  }
+
+  .directions__container__countries {
+    top: 300px;
+  }
+
+  .directions__container {
+    padding-top: 100px;
+  }
+
+  .directions__container__img__flags {
+    display: none;
+  }
+
+  .directions__container__img {
+    display: none;
+  }
+
+  .directions__container__countries__thai {
+    content: url("../../../../asserts/media/320/countries/cart_coutry.png");
+  }
+
+  .directions__container__countries__france {
+    content: url("../../../../asserts/media/320/countries/cart_coutry-1.png");
+  }
+
+  .directions__container__countries__check {
+    content: url("../../../../asserts/media/320/countries/cart_coutry-2.png");
+  }
+
+  .directions__container__link {
+    margin-top: 0px;
+    width: 100%;
+    z-index: 100;
+    top: 100px;
+  }
+
+  .directions__link {
+    margin-left: -30px;
+    margin-top: 615px;
+    width: 272px;
+    height: 62px;
+  }
+
+  .directions__link span {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+  }
+}

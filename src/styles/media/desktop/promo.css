@@ -162,3 +162,7 @@
 .promo__mobile__image {
   display: none;
 }
+
+.header__contact__mobile {
+  display: none;
+}

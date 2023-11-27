@@ -73,7 +73,28 @@
   letter-spacing: 1.2px;
 }
 
-.directions__container__link {}
+.directions__link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 20px;
+  padding: 32px 30px;
+  width: 274px;
+  max-height: 80px;
+  font-size: 24px;
+  font-family: letsGoMedium;
+  background: var(--basic_yellow);
+}
+
+.directions__link span {
+  font-size: 24px;
+  font-family: letsGoMedium;
+  font-weight: 700;
+  color: var(--basic_blue);
+}
+
+.directions__container__link {
+}
 
 .gradientback {
   position: absolute;
