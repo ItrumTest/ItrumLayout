@@ -1,4 +1,5 @@
 @import url("./global.css");
+
 @import url("./media/desktop/about.css");
 @import url("./media/desktop/header.css");
 @import url("./media/desktop/promo.css");
@@ -9,6 +10,9 @@
 @import url("./media/desktop/geolocation.css");
 @import url("./media/desktop/footer.css");
 @import url("./media/desktop/modal.css");
+
+@import url("./media/desktop/burger.css");
+
 @import url("./media/tablet/promoTablet.css");
 @import url("./media/tablet/aboutTablet.css");
 @import url("./media/tablet/directionsTablet.css");
@@ -19,8 +23,11 @@
 @import url("./media/tablet/footerTablet.css");
 @import url("./media/tablet/headerTablet.css");
 @import url("./media/tablet/burgerTablet.css");
-@import url("./media/desktop/burger.css");
+
+
 @import url("./media/mobile/headerMobile.css");
 @import url("./media/mobile/promoMobile.css");
 @import url("./media/mobile/aboutMobile.css");
 @import url("./media/mobile/directionsMobile.css");
+@import url("./media/mobile/teamMobile.css");
+@import url("./media/mobile/businessMobile.css");
