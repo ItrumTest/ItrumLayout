@@ -1,0 +1,49 @@
+@media screen and (max-width: 770px) {
+  .business__container__images__content {
+    display: none;
+  }
+
+  .business {
+    background: url("../../../../asserts/media/768/business/back_4.png");
+    width: 100%;
+    padding-top: 50px;
+    min-height: 668px;
+    background-size: 768px 668px;
+    z-index: 40;
+  }
+
+  .business__container__description {
+    max-width: 500px;
+    padding-left: 45px;
+  }
+
+  .business__container__slogan {
+    padding-top: 135px;
+    padding-bottom: 90px;
+  }
+
+  .business__modal__wrapper {
+    max-width: 680px;
+    margin-top: 25px;
+  }
+
+  .business__container__description li {
+    max-width: 550px;
+  }
+
+  .business__container__tablet__images__content {
+    display: block;
+    padding-left: 390px;
+  }
+
+  .business__container__decoration {
+    display: none;
+  }
+
+  .business__container__decoration__tablet__rubl {
+    display: block;
+    transform: scale(0.5);
+    padding-left: 790px;
+    padding-top: 280px;
+  }
+}
