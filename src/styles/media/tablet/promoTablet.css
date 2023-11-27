@@ -21,8 +21,8 @@
 
   .promo {
     background: url("../../../../asserts/media/768/promo/back_1.png");
-    height: 2015px;
-    background-size: 768px 2015px;
+    height: 1915px;
+    background-size: 768px 1915px;
     width: 768px;
     overflow: hidden;
     z-index: 70;
@@ -40,7 +40,7 @@
     position: relative;
     display: block;
     left: 80px;
-    top: 300px;
+    top: 320px;
     overflow-x: hidden;
   }
 

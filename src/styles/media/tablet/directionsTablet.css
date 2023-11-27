@@ -5,8 +5,8 @@
         width: 100%;
         background-repeat: no-repeat;
         background-size: 768px 1160px;
-        min-height: 1160px;
-        z-index: 10;
+        min-height: 1260px;
+        z-index: 60;
     }
 
     .directions__container__countries__thai {
@@ -29,13 +29,13 @@
         flex-direction: column-reverse;
         width: 100%;
         padding: 0px;
+        padding-top: 130px;
     }
 
     .directions__container__description {
         width: 616px;
         padding: 0px;
         margin: 0px;
-        border: 1px solid red;
         z-index: 0;
     }
 
@@ -53,7 +53,7 @@
     }
 
     .directions__container__link {
-        margin-top: 520px;
+        margin-top: 540px;
         /* margin-left: 10px; */
         width: 100%;
     }

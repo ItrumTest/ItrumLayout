@@ -9,6 +9,7 @@
     padding-top: 50px;
     min-height: 668px;
     background-size: 768px 668px;
+    z-index: 40;
   }
 
   .business__container__description {
