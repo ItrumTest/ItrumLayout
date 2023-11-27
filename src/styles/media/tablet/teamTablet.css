@@ -1,7 +1,6 @@
 @media screen and (max-width: 770px) {
   .team {
     background: url("../../../../asserts/media/768/team/back_3.png");
-    background-repeat: no-repeat;
     width: 100%;
     min-height: 1269px;
     background-size: 768px 1269px;
