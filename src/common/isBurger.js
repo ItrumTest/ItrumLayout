@@ -23,9 +23,13 @@ document.querySelector(".burger").addEventListener("click", function () {
     document
       .querySelector(".header__contact")
       .classList.toggle("header__contact__light");
-    return document
+    document
       .getElementById("header")
       .classList.add("header__background__scroll");
+    if (window.screen.width <= 320) {
+      document.getElementById("header").classList.remove("header__background");
+    }
+    return;
   }
 
   document.getElementById("desktop_image").removeAttribute("class");
@@ -33,6 +37,7 @@ document.querySelector(".burger").addEventListener("click", function () {
     document
       .getElementById("desktop_image")
       .setAttribute("class", "header__navigation__logo__desktop ");
+    document.getElementById("header").classList.remove("header__background");
   }
   document.getElementById("header__image").removeAttribute("class");
   document

@@ -7,6 +7,10 @@
     padding-top: 120px;
   }
 
+  .header__background__scroll {
+    height: 73px;
+  }
+
   .burger__nav {
     font-size: 30px;
     font-style: normal;
@@ -21,13 +25,16 @@
   }
 
   .burger__navigation__auth {
-    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: var(--basic_blue);
     font-weight: 700;
     background-color: var(--basic_yellow);
     width: auto;
     border-radius: 25px;
     padding: 0px 30px;
+    border: none;
     text-transform: uppercase;
     font-size: 17px;
     font-style: normal;
@@ -96,6 +103,7 @@
   }
   .header__background {
     max-width: 320px;
-    height: 100px;
+    height: 73px;
+    background-color: #161c36;
   }
 }
