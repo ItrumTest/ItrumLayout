@@ -12,9 +12,8 @@
 
   .directions__container__description {
     max-width: 215px;
-    /* padding: 0px; */
-    /* padding-top: 100px; */
   }
+
   .directions__container__description__slogan {
     font-size: 24px;
     font-style: normal;

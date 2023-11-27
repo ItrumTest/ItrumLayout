@@ -93,9 +93,6 @@
   color: var(--basic_blue);
 }
 
-.directions__container__link {
-}
-
 .gradientback {
   position: absolute;
   bottom: 0px;

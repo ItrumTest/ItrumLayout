@@ -45,6 +45,7 @@
     font-weight: 700;
     line-height: 22px;
   }
+
   .team__container__users {
     flex-direction: column;
   }

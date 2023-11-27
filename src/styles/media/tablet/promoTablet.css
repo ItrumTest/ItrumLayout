@@ -84,6 +84,7 @@
     height: 140px;
     flex-direction: column-reverse;
   }
+
   .promo__variant dt {
     padding-left: 40px;
   }

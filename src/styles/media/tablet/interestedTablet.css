@@ -16,16 +16,15 @@
     max-width: calc(536px + 80px);
   }
 
-  .interested__container input { 
-  }
-
   .interested__link span {
     opacity: 0;
   }
+
   .interested__link {
     min-width: 80px;
     max-width: 80px;
   }
+
   .interested__link img {
     position: relative;
     left: -125px;
