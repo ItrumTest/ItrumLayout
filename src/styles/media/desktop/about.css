@@ -110,3 +110,11 @@
 .about__container__call__tablet__decoration {
     display: none;
 }
+
+.about__background__mobile {
+    display: none;
+}
+
+.about__background__mobile__decoration {
+    display: none;
+}
