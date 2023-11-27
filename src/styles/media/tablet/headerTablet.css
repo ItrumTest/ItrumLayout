@@ -1,0 +1,13 @@
+@media screen and (max-width: 770px) {
+  .header__background {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 100;
+    background-color: #182044;
+  }
+
+  .header__contact__light button {
+    min-width: 185px;
+  }
+}
