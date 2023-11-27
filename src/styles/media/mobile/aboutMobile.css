@@ -25,12 +25,10 @@
   }
   .about__background__mobile {
     display: block;
-    /* padding-top: -400px; */
     position: absolute;
     top: 770px;
     background-repeat: no-repeat;
     background-size: 320px 770px;
-    /* height: 800px; */
     z-index: -1;
   }
 
