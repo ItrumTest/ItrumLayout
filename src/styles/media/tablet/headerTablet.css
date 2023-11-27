@@ -10,17 +10,4 @@
   .header__contact__light button {
     min-width: 185px;
   }
-
-  /* .header__scroll__color {
-    background-color: #fff;
-  }  */
-  /* .header_for_tablet {
-    display: block;
-    position: absolute;
-    align-items: center;
-    justify-content: space-between;
-    padding: 46px 60px 30px 60px;
-    border: 1px solid red;
-    width: 768px;
-  } */
 }
