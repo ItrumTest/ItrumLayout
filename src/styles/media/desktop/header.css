@@ -103,6 +103,9 @@ a:visited {
   font-size: 20px;
   border: none;
 }
+.burger__navigation__button__container {
+  display: none;
+}
 
 .header__call {
   background: var(--special_orange);
