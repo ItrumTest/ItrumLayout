@@ -1,0 +1,46 @@
+@media screen and (max-width: 320px) {
+  .business__modal__slogan {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    padding-top: 34px;
+    padding-bottom: 30px;
+  }
+
+  .business__modal__options {
+    justify-content: flex-start;
+  }
+
+  .business__modal__option {
+    padding: 0px 25px;
+    justify-content: flex-start;
+  }
+
+  .business__modal__option__container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .business__modal__option__container span {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px;
+    padding-bottom: 10px;
+  }
+
+  .business__modal__option__container__description {
+    padding-top: 10px;
+  }
+
+  .business__modal__close-btn {
+    height: 60px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-top: 20px;
+  }
+}
