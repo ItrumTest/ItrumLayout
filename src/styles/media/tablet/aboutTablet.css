@@ -1,0 +1,45 @@
+@media screen and (max-width: 770px) {
+  .about {
+    position: absolute;
+    background: none;
+    max-width: 100%;
+    margin-top: -3400px;
+    overflow: hidden;
+    z-index: 80;
+  }
+
+  .about__header {
+    display: none;
+  }
+
+  .about__container__img {
+    display: none;
+  }
+
+  .about__container__call {
+    display: none;
+  }
+
+  .about__container__call__tablet {
+    display: block;
+    padding-left: 30px;
+    padding-top: 110px;
+  }
+
+  .about__container__call__tablet__decoration {
+    position: absolute;
+    z-index: 100;
+  }
+
+  .about__container__description {
+    padding-top: 120px;
+  }
+
+  .about__container__description h4 {
+    max-width: 215px;
+  }
+
+  .about__container__description h4 br {
+    display: none;
+  }
+}

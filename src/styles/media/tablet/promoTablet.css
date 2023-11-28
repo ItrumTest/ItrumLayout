@@ -1,0 +1,114 @@
+@media screen and (max-width: 770px) {
+  .header {
+    padding-top: 30px;
+  }
+
+  .header__navigation__list {
+    display: none;
+  }
+
+  .header__contact :nth-child(2) {
+    display: none;
+  }
+
+  .header__contact :nth-child(1) {
+    display: none;
+  }
+
+  .header__navigation svg {
+    display: none;
+  }
+
+  .promo {
+    background: url("../../../../asserts/media/768/promo/back_1.png");
+    height: 1915px;
+    background-size: 768px 1915px;
+    width: 768px;
+    overflow: hidden;
+    z-index: 70;
+  }
+
+  .promo__slogan {
+    top: 162px;
+  }
+
+  .promo__desktop__image {
+    display: none;
+  }
+
+  .promo__tablet__image {
+    position: relative;
+    display: block;
+    left: 80px;
+    top: 320px;
+    overflow-x: hidden;
+  }
+
+  .promo__desktop__tablet__image {
+    display: block;
+    position: absolute;
+    padding-top: 485px;
+    max-width: 826px;
+    left: -40px;
+    overflow-x: hidden;
+    z-index: -1;
+  }
+
+  .promo__container {
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+  }
+
+  .promo__text {
+    position: absolute;
+    text-align: left;
+    left: 0px;
+    top: 450px;
+  }
+
+  .promo__variants {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    top: 880px;
+    padding-left: 30px;
+  }
+
+  .promo__variant:not(:nth-child(4) :nth-child(1)) {
+    height: 140px;
+    flex-direction: column-reverse;
+  }
+
+  .promo__variant dt {
+    padding-left: 40px;
+  }
+
+  .promo__variant:nth-child(3) {
+    margin-top: -2px;
+    border-radius: 0px 12px 12px 12px !important;
+  }
+
+  .promo__variant:nth-child(2) {
+    border-radius: 12px 12px 0px 0px !important;
+  }
+
+  .promo__variant:nth-child(1) {
+    border-radius: 12px 12px 0px 0px !important;
+  }
+
+  .promo__variant:nth-child(4) {
+    margin-top: -2px;
+    border-radius: 0px 0px 12px 0px !important;
+  }
+
+  .header__navigation__logo__tablet__onScroll {
+    display: block;
+    transition: 0.2s ease-in-out;
+  }
+}

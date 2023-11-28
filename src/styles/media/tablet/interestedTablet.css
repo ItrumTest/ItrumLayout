@@ -1,0 +1,37 @@
+@media screen and (max-width: 770px) {
+  .interested {
+    background: url("../../../../asserts/media/768/interested/back_5.png");
+    width: 100%;
+    margin-top: -70px;
+    min-height: 800px;
+    background-size: 768px 800px;
+    z-index: 30;
+  }
+
+  .interested__slogan {
+    padding-top: 133px;
+  }
+
+  .interested__container {
+    max-width: calc(536px + 80px);
+  }
+
+  .interested__link span {
+    opacity: 0;
+  }
+
+  .interested__link {
+    min-width: 80px;
+    max-width: 80px;
+  }
+
+  .interested__link img {
+    position: relative;
+    left: -125px;
+  }
+
+  .interested__contacts {
+    flex-direction: column;
+    padding-left: 75px;
+  }
+}

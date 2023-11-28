@@ -1,0 +1,113 @@
+@media screen and (max-width: 320px) {
+  .burger__header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    padding-top: 120px;
+  }
+
+  .header__background__scroll {
+    height: 73px;
+  }
+
+  .burger__nav {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px;
+  }
+
+  .burger__header ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .burger__navigation__auth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--basic_blue);
+    font-weight: 700;
+    background-color: var(--basic_yellow);
+    width: auto;
+    border-radius: 25px;
+    padding: 0px 30px;
+    border: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    width: 100%;
+  }
+
+  .burger__navigation__button__container {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    width: 100%;
+    padding: 50px 25px;
+  }
+
+  .burger__contacts {
+    padding: 0px 50px 20px 50px;
+  }
+
+  .burger__contacts__label {
+    padding-left: 16px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+  }
+
+  .interested__contacts__button {
+    height: 45px;
+    width: 45px;
+  }
+
+  .interested__contacts__button img {
+    width: 23px;
+    height: 23px;
+  }
+
+  .burger__social {
+    justify-content: center;
+    padding-left: 0px;
+  }
+
+  .burger__navigation__for__tablet {
+    height: 568px;
+  }
+
+  .burger__header a {
+    padding: 0px;
+  }
+
+  .header__navigation__logo__desktop {
+    content: url("../../../../asserts/media/320/header/lobo_mobile.svg");
+  }
+
+  .header__navigation__logo__tablet {
+    content: url("../../../../asserts/media/320/header/Vector.svg");
+  }
+
+  .header__navigation__logo__tablet__onScroll {
+    content: url("../../../../asserts/media/320/header/Vector.svg");
+  }
+
+  .header__contact {
+    display: none;
+  }
+
+  .header__background {
+    max-width: 320px;
+    height: 73px;
+    background-color: #161c36;
+  }
+}

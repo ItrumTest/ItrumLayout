@@ -1,0 +1,59 @@
+.geolocation {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  flex-direction: column;
+  background: url("../../../../asserts/footer/background2.png");
+  width: 1440px;
+  background-repeat: no-repeat;
+  background-size: 1440px 300px;
+  min-height: 300px;
+  z-index: 40;
+  margin-top: -70px;
+}
+
+.geolocation__contacts {
+  display: flex;
+  padding-top: 140px;
+  align-items: center;
+  justify-content: space-between;
+  width: 900px;
+}
+
+.geolocation__link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 32px 30px;
+  min-width: 330px;
+  max-height: 81px;
+  font-size: 24px;
+  font-family: letsGoMedium;
+  border: 3px solid var(--basic_blue);
+  background: var(--basic_yellow);
+  border-radius: 20px;
+}
+
+.geolocation__link span {
+  color: var(--basic_blue);
+}
+
+.geolocation__contacts__contact__span {
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  padding-left: 30px;
+  text-transform: uppercase;
+  max-width: 550px;
+  cursor: pointer;
+  color: var(--basic_blue);
+}
+
+.geolocation__contacts__contact {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }

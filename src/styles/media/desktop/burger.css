@@ -1,0 +1,162 @@
+.burger {
+    display: none;
+    position: relative;
+    z-index: 50;
+    align-items: center;
+    justify-content: flex-end;
+    width: 30px;
+    height: 18px;
+}
+
+.burger__scroll {
+    display: none;
+    position: relative;
+    z-index: 50;
+    align-items: center;
+    justify-content: flex-end;
+    width: 30px;
+    height: 18px;
+}
+
+.burger span {
+    height: 2px;
+    width: 80%;
+    transform: scale(1);
+}
+
+.burger__scroll span {
+    height: 2px;
+    width: 80%;
+    transform: scale(1);
+}
+
+.burger::before,
+.burger::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: #faf6f2;
+    transition: all 0.3s ease 0s;
+}
+
+.burger__scroll::before,
+.burger__scroll::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: #cccccc;
+    transition: all 0.3s ease 0s;
+}
+
+.burger::after {
+    bottom: 0;
+}
+
+.burger::before {
+    top: 0;
+}
+
+.burger__scroll::after {
+    bottom: 0;
+}
+
+.burger__scroll::before {
+    top: 0;
+}
+
+/* Добавляем класс active для анимации иконки бургера */
+.burger.active span {
+    transform: scale(0);
+}
+
+.burger__scroll.active span {
+    transform: scale(0);
+}
+
+.burger.active::before {
+    top: 50%;
+    transform: rotate(-45deg) translate(0, -50%);
+}
+
+.burger.active::after {
+    bottom: 50%;
+    transform: rotate(45deg) translate(0, 50%);
+}
+
+.burger__scroll.active::before {
+    top: 50%;
+    transform: rotate(-45deg) translate(0, -50%);
+}
+
+.burger__scroll.active::after {
+    bottom: 50%;
+    transform: rotate(45deg) translate(0, 50%);
+}
+
+/* При разрешении экрана 768px и ниже, выводим на экран иконку бургера */
+@media (max-width: 768px) {
+    .burger {
+        display: flex;
+    }
+
+    .burger__scroll {
+        display: flex;
+    }
+
+    .nav {
+        display: none;
+        flex-direction: column;
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 50;
+        overflow-y: auto;
+        padding: 50px 40px;
+        background-color: black;
+        animation: burgerAnimation 0.4s;
+    }
+
+    .nav ul {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+}
+
+@keyframes burgerAnimation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .header__scroll {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 46px 60px 30px 60px;
+        width: 770px;
+        height: 100px;
+        z-index: 1000;
+    }
+
+    .header__background__scroll {
+        position: fixed;
+        top: 0px;
+        z-index: 100;
+        height: 110px;
+        background-color: #fff;
+    }
+
+    .burger__navigation__active {
+        display: block;
+    }
+}

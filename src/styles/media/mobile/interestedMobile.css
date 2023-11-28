@@ -1,0 +1,83 @@
+@media screen and (max-width: 320px) {
+  .interested {
+    background: url("../../../../asserts/media/320/interested/Rectangle48.png");
+    width: 100%;
+    margin-top: -50px;
+    min-height: 550px;
+    background-size: 320px 550px;
+  }
+
+  .interested__container {
+    max-width: calc(210px + 60px);
+  }
+
+  .interested__slogan {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    padding-top: 120px;
+    padding-bottom: 20px;
+  }
+
+  .interested__signUp {
+    padding-top: 0px;
+    padding-bottom: 30px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px;
+    max-width: 210px;
+  }
+
+  .interested__container {
+    max-height: 60px;
+  }
+
+  .interested__container input {
+    max-height: 62px;
+    font-size: 18px;
+    border-radius: 12px;
+    width: 250px;
+  }
+
+  .interested__link img {
+    position: relative;
+    left: -108px;
+  }
+
+  .interested__link {
+    max-height: 60px;
+    min-width: 60px;
+    max-width: 60px;
+    margin: 0px;
+    margin-left: -10px;
+    padding: 31px 0px;
+    border-radius: 0px 12px 12px 0px;
+  }
+
+  .interested__container__description__text {
+    text-align: center;
+    max-width: 215px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px;
+
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+
+  .interested__contacts__contact label {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    padding-left: 15px;
+  }
+
+  .interested__contacts {
+    width: 100%;
+    padding-left: 25px;
+  }
+}
