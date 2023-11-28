@@ -26,7 +26,7 @@ document.querySelector(".burger").addEventListener("click", function () {
     document
       .getElementById("header")
       .classList.add("header__background__scroll");
-    if (window.screen.width <= 320) {
+    if (window.screen.width <= 768) {
       document.getElementById("header").classList.remove("header__background");
     }
     return;
