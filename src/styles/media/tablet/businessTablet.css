@@ -24,7 +24,8 @@
 
   .business__modal__wrapper {
     max-width: 680px;
-    margin-top: 25px;
+    margin-top: 15px;
+    max-height: 700px;
   }
 
   .business__container__description li {
@@ -46,4 +47,19 @@
     padding-left: 790px;
     padding-top: 280px;
   }
+
+  .business__Tablet {
+    width: 400px;
+    border-bottom: 1px solid #e1e3e9;
+  }
+
+  .last__modal__isOpen {
+    width: 100%;
+    border-bottom: 1px solid #e1e3e9;
+  }
+
+  .business__modal__close-btn {
+    margin-top: 50px;
+  }
+
 }

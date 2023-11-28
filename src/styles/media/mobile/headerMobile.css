@@ -88,6 +88,7 @@
   .burger__header a {
     padding: 0px;
   }
+
   .header__navigation__logo__desktop {
     content: url("../../../../asserts/media/320/header/lobo_mobile.svg");
   }

@@ -9,7 +9,7 @@
 
   .geolocation__contacts {
     display: inline;
-    max-width: 618px;
+    max-width: 640px;
   }
 
   .geolocation__contacts__contact {
@@ -18,5 +18,9 @@
 
   .geolocation__link {
     width: 100%;
+  }
+  
+  .geolocation__contacts__image {
+    content: url("../../../../asserts/media/768/geolocation/map_mark.png");
   }
 }

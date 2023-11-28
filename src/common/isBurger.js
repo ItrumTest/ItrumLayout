@@ -133,10 +133,11 @@ document.addEventListener("scroll", (event) => {
 });
 
 function burgerScrollTo(value) {
-  scrollTo1(value);
   document
     .getElementById("burger__navigation__tablet")
     .classList.toggle("burger__navigation__active");
   document.querySelector(".burger").classList.toggle("active");
   document.querySelector(".nav").classList.toggle("open");
+  
+  scrollTo1(value);
 }

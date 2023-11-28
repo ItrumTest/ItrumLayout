@@ -43,4 +43,16 @@
     text-transform: uppercase;
     margin-top: 20px;
   }
+
+  .last__modal {
+    width: 100%;
+    line-height: 40px;
+    padding-top: 20px;
+  }
+
+  .last__modal__isOpen {
+    width: 100%;
+    line-height: 40px;
+    border-bottom: 1px solid #e1e3e9;
+  }
 }
