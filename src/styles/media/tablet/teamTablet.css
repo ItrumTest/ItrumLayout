@@ -51,8 +51,8 @@
   .team__container__user {
     display: block;
     position: absolute;
-    top: 480px;
-    left: 50px;
+    top: -100px;
+    /* left: 50px; */
   }
 
   .team__container__user1 {
@@ -60,5 +60,16 @@
     position: absolute;
     top: 480px;
     left: 380px;
+  }
+
+  .team {
+    min-height: 1000px;
+  }
+
+  .team__container__users {
+    transform: scale(1);
+  }
+  .team__container__users img {
+    /* margin-top: -100px; */
   }
 }
