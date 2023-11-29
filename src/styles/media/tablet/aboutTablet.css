@@ -3,7 +3,7 @@
     position: absolute;
     background: none;
     max-width: 100%;
-    margin-top: -3400px;
+    margin-top: -3700px;
     overflow: hidden;
     z-index: 80;
   }
@@ -56,6 +56,7 @@
   .about__container__img {
     display: none;
   }
+
   /* .about__link {
     margin-top: 240px;
   } */
