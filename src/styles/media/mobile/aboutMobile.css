@@ -1,8 +1,9 @@
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 380px) {
   .about {
     position: absolute;
     background: none;
     max-width: 100%;
+    width: 100%;
     margin-top: -2800px;
     overflow: hidden;
     z-index: 80;
@@ -32,7 +33,7 @@
     position: absolute;
     top: 770px;
     background-repeat: no-repeat;
-    background-size: 320px 770px;
+    background-size: 100% 770px;
     z-index: -1;
   }
 

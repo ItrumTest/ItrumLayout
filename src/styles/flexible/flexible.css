@@ -1,7 +1,34 @@
 @media screen and (max-width: 1350px) {
+  .team__container__description__slogan {
+    padding-bottom: 20px;
+  }
+
+  .team__container__wrapper {
+    padding-left: 0px;
+    padding-top: 200px;
+  }
+
+  .about__container__description h4 {
+    padding-bottom: 20px;
+  }
+
+  .directions__container__description__text {
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+
+  .directions__container__description {
+    padding-left: 50px;
+  }
+
+  .promo {
+    margin-left: -10px;
+  }
+
   .about__container__description {
     padding-top: 200px;
   }
+
   .promo__container {
     padding-top: 100px;
   }
@@ -15,12 +42,13 @@
     padding-left: 30px;
     max-width: 500px;
     font-size: 16px;
+    z-index: 91;
   }
 
   .promo__variant:not(:nth-child(4) :nth-child(1)) {
     height: 140px;
     flex-direction: column-reverse;
-    min-width: 100px;
+    min-width: 120px;
   }
 
   .promo__variant dt {
@@ -49,12 +77,33 @@
     display: block;
     transition: 0.2s ease-in-out;
   }
+
+  .team__container__description h4 {
+    padding-bottom: 15px;
+  }
 }
 
 @media screen and (max-width: 1130px) {
-  .about__container__description h4 {
-    padding-bottom: 20px;
+  .team__container__wrapper {
+    /* padding-top: 120px; */
   }
+
+  .team {
+    /* min-height: 800px; */
+  }
+
+  /* .team__container__users {
+    transform: scale(0.7);
+  } */
+
+  .about__container__description__text {
+    line-height: 20px;
+  }
+
+  .about__container__description h4 {
+    max-width: 200px;
+  }
+
   .header__navigation svg {
     display: none;
   }
@@ -79,6 +128,43 @@
 }
 
 @media screen and (max-width: 980px) {
+  /* .burger__navigation__for__tablet {
+    display: block;
+  } */
+
+  /* .team__container__wrapper {
+    flex-direction: column;
+  }
+
+  .team__container__users {
+    flex-direction: column;
+  } */
+
+  .team__container__users {
+    margin-left: -80px;
+  }
+
+  .directions__container__description {
+    padding-left: 0px;
+    margin-left: -50px;
+  }
+
+  .directions__container__countries {
+    transform: scale(0.7);
+    margin-left: -60px;
+  }
+
+  .burger__navigation__for__tablet {
+    /* display: block; */
+    /* margin-top: -100px; */
+    position: fixed;
+    z-index: 101;
+  }
+
+  .header_for_tablet {
+    display: block;
+  }
+
   .promo__text {
     margin-top: -100px;
   }
@@ -112,9 +198,15 @@
     margin-left: -100px;
     content: url("../../../asserts/media/768/promo/traveller-illustration-tablet\ 1.png");
   }
+  .promo__variant:not(:nth-child(4) :nth-child(1)) {
+    padding-right: 20px;
+  }
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 860px) {
+  .promo__slogan {
+    margin-left: 70px;
+  }
   .promo h1 {
     font-size: 40px;
     padding-left: 70px;

@@ -1,10 +1,10 @@
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 380px) {
   .interested {
     background: url("../../../../asserts/media/320/interested/Rectangle48.png");
     width: 100%;
     margin-top: -50px;
     min-height: 550px;
-    background-size: 320px 550px;
+    background-size: 100% 550px;
   }
 
   .interested__container {

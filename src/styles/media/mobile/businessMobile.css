@@ -1,7 +1,7 @@
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 380px) {
   .business {
     background: url("../../../../asserts/media/320/business/Rectangle47.png");
-    background-size: 320px 543px;
+    background-size: 100% 543px;
     min-height: 543px;
   }
 

@@ -1,10 +1,10 @@
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 380px) {
   .team {
     background: url("../../../../asserts/media/320/team/Rectangle46.png");
     background-repeat: no-repeat;
     width: 100%;
     min-height: 1451px;
-    background-size: 320px 1451px;
+    background-size: 100% 1451px;
     z-index: 50;
   }
 

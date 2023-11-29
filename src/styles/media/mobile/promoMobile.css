@@ -1,10 +1,10 @@
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 380px) {
   .promo__desktop__tablet__image {
     content: url("../../../../asserts/media/320/promo/globe-back-mobile1.png");
     padding: 0px;
     padding-top: 100px;
     height: 568px;
-    background-size: 320px 568px;
+    background-size: 100% 568px;
     width: 380px;
   }
 

@@ -13,7 +13,7 @@
   }
 
   .about__container__img {
-    display: none;
+    /* display: none; */
   }
 
   .about__container__call {
@@ -33,6 +33,7 @@
 
   .about__container__description {
     padding-top: 120px;
+    padding-left: 0px;
   }
 
   .about__container__description h4 {
@@ -42,4 +43,12 @@
   .about__container__description h4 br {
     display: none;
   }
+
+  .about__container__description__text {
+    font-size: 28px;
+    line-height: 34px;
+  }
+  /* .about__link {
+    margin-top: 240px;
+  } */
 }

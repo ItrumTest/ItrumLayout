@@ -1,8 +1,9 @@
 @media screen and (max-width: 770px) {
   .geolocation {
     background: url("../../../../asserts/media/768/geolocation/background_location.png");
+    max-width: 768px;
     width: 100%;
-    background-size: 768px 430px;
+    background-size: 100% 430px;
     min-height: 430px;
     z-index: 20;
   }

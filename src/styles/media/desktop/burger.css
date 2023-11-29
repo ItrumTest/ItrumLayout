@@ -108,6 +108,15 @@
   .burger {
     display: block;
   }
+  .burger__navigation__active {
+    display: block;
+  }
+  .interested__contacts__contact__span {
+    font-size: 22px;
+  }
+  .interested__contacts {
+    width: 750px;
+  }
 }
 @media (max-width: 768px) {
   .burger {
@@ -159,9 +168,5 @@
     width: 770px;
     height: 100px;
     z-index: 1000;
-  }
-
-  .burger__navigation__active {
-    display: block;
   }
 }

@@ -3,30 +3,20 @@ let lastKnownScrollPosition = 0;
 let ticking = false;
 
 document.querySelector(".burger").addEventListener("click", function () {
-  document
-    .getElementById("burger__navigation__tablet")
-    .classList.toggle("burger__navigation__active");
+  document.getElementById("burger__navigation__tablet").classList.toggle("burger__navigation__active");
   document.getElementById("burger").classList.add("burger__scroll");
 
   this.classList.toggle("active");
   document.querySelector(".nav").classList.toggle("open");
 
   if ([...this.classList].includes("active")) {
-    document
-      .getElementById("desktop_image")
-      .classList.add("about__container__call__tablet__decoration");
+    document.getElementById("desktop_image").classList.add("about__container__call__tablet__decoration");
 
-    document
-      .getElementById("header__image")
-      .classList.add("header__navigation__logo__tablet__onScroll");
+    document.getElementById("header__image").classList.add("header__navigation__logo__tablet__onScroll");
     //auth font weight
-    document
-      .querySelector(".header__contact")
-      .classList.toggle("header__contact__light");
-    document
-      .getElementById("header")
-      .classList.add("header__background__scroll");
-    if (window.screen.width <= 768) {
+    document.querySelector(".header__contact").classList.toggle("header__contact__light");
+    document.getElementById("header").classList.add("header__background__scroll");
+    if (window.screen.width <= 980) {
       document.getElementById("header").classList.remove("header__background");
     }
     return;
@@ -34,37 +24,21 @@ document.querySelector(".burger").addEventListener("click", function () {
 
   document.getElementById("desktop_image").removeAttribute("class");
   if (!ticking && window.screen.width <= 320) {
-    document
-      .getElementById("desktop_image")
-      .setAttribute("class", "header__navigation__logo__desktop ");
+    document.getElementById("desktop_image").setAttribute("class", "header__navigation__logo__desktop ");
     document.getElementById("header").classList.remove("header__background");
   }
   document.getElementById("header__image").removeAttribute("class");
-  document
-    .getElementById("header__image")
-    .setAttribute("class", "header__navigation__logo__tablet");
-  document
-    .getElementById("header__image")
-    .classList.add("header__navigation__logo__desktop");
-  document
-    .getElementById("header")
-    .classList.replace("header__background__scroll", "header__background");
+  document.getElementById("header__image").setAttribute("class", "header__navigation__logo__tablet");
+  document.getElementById("header__image").classList.add("header__navigation__logo__desktop");
+  document.getElementById("header").classList.replace("header__background__scroll", "header__background");
   //auth font weight
-  document
-    .querySelector(".header__contact")
-    .classList.toggle("header__contact__light");
+  document.querySelector(".header__contact").classList.toggle("header__contact__light");
   if (lastKnownScrollPosition) {
     //replace image source
-    document
-      .getElementById("desktop_image")
-      .classList.add("about__container__call__tablet__decoration");
-    document
-      .getElementById("header__image")
-      .classList.add("header__navigation__logo__tablet__onScroll");
+    document.getElementById("desktop_image").classList.add("about__container__call__tablet__decoration");
+    document.getElementById("header__image").classList.add("header__navigation__logo__tablet__onScroll");
     // change bg color
-    document
-      .getElementById("header")
-      .classList.replace("header__background", "header__background__scroll");
+    document.getElementById("header").classList.replace("header__background", "header__background__scroll");
     return;
   }
 });
@@ -84,45 +58,27 @@ function doSomething(scrollPos) {
 
   // promo.classList.toggle("promo__container__fixed")
   if (scrollPos) {
-    header_position_fixed.setAttribute(
-      "class",
-      "header header__background__scroll about__header"
-    );
-    if (window.screen.width <= 768) {
-      header_position_fixed.setAttribute(
-        "class",
-        "header header__background__scroll"
-      );
+    header_position_fixed.setAttribute("class", "header header__background__scroll about__header");
+    if (window.screen.width <= 980) {
+      header_position_fixed.setAttribute("class", "header header__background__scroll");
     }
-    promo.classList.add("promo__container__fixed")
+    promo.classList.add("promo__container__fixed");
     //burger before and after elements color
     burger.classList.add("burger__scroll");
-    header_image.setAttribute(
-      "class",
-      "header__navigation__logo__tablet__onScroll"
-    );
+    header_image.setAttribute("class", "header__navigation__logo__tablet__onScroll");
     // navigationText.classList.add("nav__scroll")
-    desktop_image.setAttribute(
-      "class",
-      "about__container__call__tablet__decoration"
-    );
+    desktop_image.setAttribute("class", "about__container__call__tablet__decoration");
 
     return;
   }
   // promo.classList.toggle("promo__container__fixed")
-  promo.classList.remove("promo__container__fixed")
+  promo.classList.remove("promo__container__fixed");
   header_image.setAttribute("class", "header__navigation__logo__tablet");
   desktop_image.setAttribute("class", "header__navigation__logo__desktop");
 
   if ([...burger.classList].includes("active")) {
-    header_image.setAttribute(
-      "class",
-      "header__navigation__logo__tablet__onScroll"
-    );
-    desktop_image.setAttribute(
-      "class",
-      "about__container__call__tablet__decoration"
-    );
+    header_image.setAttribute("class", "header__navigation__logo__tablet__onScroll");
+    desktop_image.setAttribute("class", "about__container__call__tablet__decoration");
     return;
   }
 
@@ -139,9 +95,7 @@ document.addEventListener("scroll", (event) => {
 });
 
 function burgerScrollTo(value) {
-  document
-    .getElementById("burger__navigation__tablet")
-    .classList.toggle("burger__navigation__active");
+  document.getElementById("burger__navigation__tablet").classList.toggle("burger__navigation__active");
   document.querySelector(".burger").classList.toggle("active");
   document.querySelector(".nav").classList.toggle("open");
 

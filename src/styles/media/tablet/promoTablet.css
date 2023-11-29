@@ -20,11 +20,17 @@
   .promo {
     background: url("../../../../asserts/media/768/promo/back_1.png");
     height: 1915px;
-    background-size: 768px 1915px;
-    width: 768px;
+    background-size: 100% 1915px;
+    width: 100%;
+    max-width: 770px;
     overflow: hidden;
     z-index: 70;
+    margin-top: 0px;
   }
+
+  .promo {
+    margin-left: 0px;
+}
 
   .promo__slogan {
     top: 162px;
