@@ -76,22 +76,32 @@ function doSomething(scrollPos) {
   // Do something with the scroll position
 
   const header_position_fixed = document.getElementById("header");
+  const promo = document.getElementById("promo");
   const header_image = document.getElementById("header__image");
   const desktop_image = document.getElementById("desktop_image");
   const burger = document.getElementById("burger");
+  // const navigationText = document.querySelectorAll("nav")
 
+  // promo.classList.toggle("promo__container__fixed")
   if (scrollPos) {
     header_position_fixed.setAttribute(
       "class",
-      "header header__background__scroll"
+      "header header__background__scroll about__header"
     );
+    if (window.screen.width <= 768) {
+      header_position_fixed.setAttribute(
+        "class",
+        "header header__background__scroll"
+      );
+    }
+    promo.classList.add("promo__container__fixed")
     //burger before and after elements color
     burger.classList.add("burger__scroll");
     header_image.setAttribute(
       "class",
       "header__navigation__logo__tablet__onScroll"
     );
-
+    // navigationText.classList.add("nav__scroll")
     desktop_image.setAttribute(
       "class",
       "about__container__call__tablet__decoration"
@@ -99,7 +109,8 @@ function doSomething(scrollPos) {
 
     return;
   }
-
+  // promo.classList.toggle("promo__container__fixed")
+  promo.classList.remove("promo__container__fixed")
   header_image.setAttribute("class", "header__navigation__logo__tablet");
   desktop_image.setAttribute("class", "header__navigation__logo__desktop");
 
@@ -122,14 +133,9 @@ function doSomething(scrollPos) {
 document.addEventListener("scroll", (event) => {
   lastKnownScrollPosition = window.scrollY;
 
-  if (!ticking && window.screen.width <= 780) {
-    window.requestAnimationFrame(() => {
-      doSomething(lastKnownScrollPosition);
-      ticking = false;
-    });
-
-    ticking = true;
-  }
+  window.requestAnimationFrame(() => {
+    doSomething(lastKnownScrollPosition);
+  });
 });
 
 function burgerScrollTo(value) {
@@ -138,6 +144,6 @@ function burgerScrollTo(value) {
     .classList.toggle("burger__navigation__active");
   document.querySelector(".burger").classList.toggle("active");
   document.querySelector(".nav").classList.toggle("open");
-  
+
   scrollTo1(value);
 }

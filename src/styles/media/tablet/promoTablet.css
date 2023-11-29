@@ -7,16 +7,14 @@
     display: none;
   }
 
-  .header__contact :nth-child(2) {
-    display: none;
-  }
-
-  .header__contact :nth-child(1) {
-    display: none;
-  }
-
   .header__navigation svg {
     display: none;
+  }
+
+  .promo h1 {
+    font-size: 40px;
+    padding-left: 0px;
+    margin: 0px;
   }
 
   .promo {
@@ -48,8 +46,9 @@
     display: block;
     position: absolute;
     padding-top: 485px;
-    max-width: 826px;
-    left: -40px;
+    max-width: 886px;
+    width: 100%;
+    /* left: -40px; */
     overflow-x: hidden;
     z-index: -1;
   }
@@ -69,6 +68,7 @@
     text-align: left;
     left: 0px;
     top: 450px;
+    padding-left: 60px;
   }
 
   .promo__variants {
@@ -76,13 +76,15 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    top: 880px;
+    top: 850px;
     padding-left: 30px;
+    max-width: none;
   }
 
   .promo__variant:not(:nth-child(4) :nth-child(1)) {
     height: 140px;
     flex-direction: column-reverse;
+    min-width: 345px;
   }
 
   .promo__variant dt {

@@ -1,5 +1,6 @@
 @import url("./global.css");
 
+
 @import url("./media/desktop/about.css");
 @import url("./media/desktop/header.css");
 @import url("./media/desktop/promo.css");
@@ -10,6 +11,7 @@
 @import url("./media/desktop/geolocation.css");
 @import url("./media/desktop/footer.css");
 @import url("./media/desktop/modal.css");
+@import url("./flexible/flexible.css");
 
 @import url("./media/desktop/burger.css");
 

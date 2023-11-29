@@ -118,3 +118,20 @@
 .about__background__mobile__decoration {
     display: none;
 }
+
+@media screen and (max-width: 1160px) {
+    .about {
+        width: 100%;
+    }
+    
+
+    .about__container__description__text {
+        max-width: 250px;
+        font-size: 16px;
+    }
+
+    .about__container__description {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}

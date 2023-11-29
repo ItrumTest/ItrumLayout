@@ -25,6 +25,12 @@
   background-repeat: no-repeat;
   background-size: 1440px 780px;
   z-index: 100;
+  /* margin-top: 100px; */
+}
+
+.promo__container__fixed {
+  /* margin-top: 500px; */
+  margin-top: 110px;
 }
 
 .promo dl {
@@ -70,13 +76,13 @@
 
 .promo__container img {
   padding-left: 40px;
-  margin-top: -80px;
+  /* margin-top: -80px; */
 }
 
 .promo__variants {
   display: flex;
   position: absolute;
-  top: 500px;
+  top: 530px;
   font-weight: 700;
   font-size: 24px;
   color: var(--basic_blue);

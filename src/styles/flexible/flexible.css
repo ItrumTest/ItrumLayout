@@ -1,0 +1,126 @@
+@media screen and (max-width: 1350px) {
+  .about__container__description {
+    padding-top: 200px;
+  }
+  .promo__container {
+    padding-top: 100px;
+  }
+
+  .promo__variants {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    top: 712px;
+    padding-left: 30px;
+    max-width: 500px;
+    font-size: 16px;
+  }
+
+  .promo__variant:not(:nth-child(4) :nth-child(1)) {
+    height: 140px;
+    flex-direction: column-reverse;
+    min-width: 100px;
+  }
+
+  .promo__variant dt {
+    padding-left: 40px;
+  }
+
+  .promo__variant:nth-child(3) {
+    margin-top: -2px;
+    border-radius: 0px 12px 12px 12px !important;
+  }
+
+  .promo__variant:nth-child(2) {
+    border-radius: 12px 12px 0px 0px !important;
+  }
+
+  .promo__variant:nth-child(1) {
+    border-radius: 12px 12px 0px 0px !important;
+  }
+
+  .promo__variant:nth-child(4) {
+    margin-top: -2px;
+    border-radius: 0px 0px 12px 0px !important;
+  }
+
+  .header__navigation__logo__tablet__onScroll {
+    display: block;
+    transition: 0.2s ease-in-out;
+  }
+}
+
+@media screen and (max-width: 1130px) {
+  .about__container__description h4 {
+    padding-bottom: 20px;
+  }
+  .header__navigation svg {
+    display: none;
+  }
+
+  .promo h1 {
+    font-size: 40px;
+  }
+
+  .nav {
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+  .promo__container img {
+    padding-left: 0px;
+  }
+
+  .promo__text {
+    padding-left: 10px;
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .promo__text {
+    margin-top: -100px;
+  }
+
+  .promo__variants {
+    top: 522px;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .promo h1 {
+    font-size: 40px;
+    margin-left: -100px;
+  }
+
+  .burger__scroll {
+    display: block;
+  }
+
+  .header__contact :nth-child(2) {
+    display: none;
+  }
+
+  .header__contact :nth-child(1) {
+    display: none;
+  }
+
+  .promo__desktop__image {
+    margin-left: -100px;
+    content: url("../../../asserts/media/768/promo/traveller-illustration-tablet\ 1.png");
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .promo h1 {
+    font-size: 40px;
+    padding-left: 70px;
+  }
+
+  .about__container__description {
+    padding-left: 180px;
+  }
+}
