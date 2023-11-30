@@ -16,11 +16,12 @@
 
 .geolocation__contacts {
   display: flex;
-  padding: 0px 70px;
+  padding: 0px 30px;
   padding-top: 90px;
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  max-width: 1175px;
 }
 
 .geolocation__link {
@@ -63,5 +64,5 @@
   }
 
   .geolocation__mark {
-    padding-left: 200px;
+    padding-left: 105px;
   }
