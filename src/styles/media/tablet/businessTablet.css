@@ -13,12 +13,12 @@
   }
 
   .business__container__description {
-    max-width: 500px;
+    /* max-width: 500px; */
     padding-left: 45px;
   }
 
   .business__container__slogan {
-    padding-top: 135px;
+    padding-top: 85px;
     padding-bottom: 90px;
   }
 
@@ -34,7 +34,7 @@
 
   .business__container__tablet__images__content {
     display: block;
-    padding-left: 390px;
+    padding-left: 200px;
   }
 
   .business__container__decoration {
@@ -44,12 +44,12 @@
   .business__container__decoration__tablet__rubl {
     display: block;
     transform: scale(0.5);
-    padding-left: 790px;
+    padding-left: 400px;
     padding-top: 280px;
   }
 
   .business__Tablet {
-    width: 400px;
+    /* width: 400px; */
     border-bottom: 1px solid #e1e3e9;
   }
 

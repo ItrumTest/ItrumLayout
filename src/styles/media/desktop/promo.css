@@ -82,7 +82,7 @@
 .promo__variants {
   display: flex;
   position: absolute;
-  top: 530px;
+  top: 550px;
   font-weight: 700;
   font-size: 24px;
   color: var(--basic_blue);

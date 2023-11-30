@@ -6,19 +6,26 @@
     background-size: 100% 430px;
     min-height: 430px;
     z-index: 20;
+    padding: 0px 75px;
   }
 
   .geolocation__contacts {
     display: inline;
     max-width: 640px;
+    width: 100%;
   }
 
   .geolocation__contacts__contact {
+    width: 100%;
     padding-top: 44px;
   }
 
   .geolocation__link {
     width: 100%;
+  }
+
+  .geolocation__contacts__contact {
+    max-width: 100%;
   }
   
   .geolocation__contacts__image {

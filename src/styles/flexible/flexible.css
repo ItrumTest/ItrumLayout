@@ -1,4 +1,17 @@
+.last__modal {
+  width: 140px;
+  text-align: right;
+}
+
 @media screen and (max-width: 1350px) {
+  .geolocation__contacts {
+    padding-left: 215px;
+  }
+
+  .business__container__description {
+    padding-left: 30px;
+  }
+
   .team__container__description__slogan {
     padding-bottom: 20px;
   }
@@ -84,8 +97,32 @@
 }
 
 @media screen and (max-width: 1130px) {
+  .geolocation__contacts {
+    padding-left: 70px;
+  }
+
+  .interested__link {
+    max-width: 220px;
+  }
+
+  .business__container__images__content {
+    display: none;
+  }
+
+  .business__container__decoration__tablet__rubl {
+    display: block;
+    transform: scale(1);
+    z-index: 1;
+    padding: 0px;
+    padding-top: 260px;
+    padding-left: 120px;
+  }
+
+  .business__container__tablet__images__content {
+    display: block;
+  }
+
   .team__container__wrapper {
-    /* padding-top: 120px; */
     flex-direction: column;
   }
 
@@ -95,7 +132,6 @@
 
   .team__container__description {
     width: 100%;
-    /* height: 1000px; */
   }
 
   .team__container__link {
@@ -147,7 +183,18 @@
   /* .burger__navigation__for__tablet {
     display: block;
   } */
+  .geolocation__contacts {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 
+  .geolocation__contacts {
+    width: 750px;
+  }
+
+  .geolocation__contacts__contact__span {
+    font-size: 22px;
+  }
 
   .team__container__users img {
     margin-top: -150px;
