@@ -1,7 +1,7 @@
 .geolocation {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   position: relative;
   flex-direction: column;
   background: url("../../../../asserts/footer/background2.png");
@@ -16,12 +16,11 @@
 
 .geolocation__contacts {
   display: flex;
-  padding-top: 140px;
+  padding: 0px 70px;
+  padding-top: 90px;
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  padding-left: 280px;
-  padding-right: 160px;
 }
 
 .geolocation__link {
@@ -61,4 +60,8 @@
     justify-content: flex-start;
     max-width: 330px;
     width: 100%;
+  }
+
+  .geolocation__mark {
+    padding-left: 200px;
   }

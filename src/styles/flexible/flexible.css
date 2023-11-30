@@ -4,8 +4,8 @@
 }
 
 @media screen and (max-width: 1350px) {
-  .geolocation__contacts {
-    padding-left: 215px;
+  .geolocation__mark {
+    padding-left: 0px;
   }
 
   .business__container__description {
