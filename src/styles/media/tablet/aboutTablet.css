@@ -61,3 +61,15 @@
     margin-top: 240px;
   } */
 }
+
+@media screen and (max-width: 860px) {
+  .about__container__description {
+    /* padding-left: 90px; */
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .about__container__description {
+    padding-left: 90px;
+  }
+}

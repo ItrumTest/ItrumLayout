@@ -1,4 +1,4 @@
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 680px) {
   .about {
     position: absolute;
     background: none;
@@ -32,8 +32,10 @@
     display: block;
     position: absolute;
     top: 770px;
+    max-height: 633px;
     background-repeat: no-repeat;
-    background-size: 100% 770px;
+    /* background-size: 100% 100%; */
+    width: 100%;
     z-index: -1;
   }
 

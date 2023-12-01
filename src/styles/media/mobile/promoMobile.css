@@ -1,11 +1,11 @@
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 680px) {
   .promo__desktop__tablet__image {
     content: url("../../../../asserts/media/320/promo/globe-back-mobile1.png");
     padding: 0px;
     padding-top: 100px;
     height: 568px;
-    background-size: 100% 568px;
-    width: 380px;
+    background-size: 100% 100%;
+    width: 100%;
   }
 
   .promo__container img {
@@ -16,7 +16,7 @@
     display: block;
     position: absolute;
     top: 568px;
-    width: 320px;
+    width: 100%;
     left: 0px;
     padding: 0px;
     margin: 0px;
@@ -25,6 +25,7 @@
 
   .promo {
     background: none;
+    margin-top: -40px;
   }
 
   .promo__tablet__image {
@@ -38,10 +39,12 @@
     font-style: normal;
     font-weight: 700;
     line-height: 40px;
+    padding-top: 30px;
   }
 
   .promo__slogan {
     top: 95px;
+    max-width: 300px;
   }
 
   .promo__text {
@@ -116,7 +119,7 @@
   }
 
   .header__contact__mobile {
-    padding-top: 170px;
+    padding-top: 140px;
     display: flex;
     align-items: center;
     justify-content: center;

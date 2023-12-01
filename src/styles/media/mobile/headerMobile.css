@@ -1,4 +1,4 @@
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 680px) {
   .burger__header {
     display: flex;
     align-items: center;
@@ -106,7 +106,8 @@
   }
 
   .header__background {
-    max-width: 320px;
+    max-width: 100%;
+    margin: 0px;
     height: 73px;
     background-color: #161c36;
   }

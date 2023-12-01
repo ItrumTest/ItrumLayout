@@ -50,6 +50,8 @@
   .directions__container__countries {
     position: absolute;
     top: 530px;
+    transform: scale(1);
+    margin-left: 0px;
   }
 
   .directions__container__link {
@@ -57,13 +59,38 @@
     width: 100%;
   }
 
-  .directions__container__countries {
-    transform: scale(1);
-    margin-left: 0px;
-  }
-
   .directions__container__description__text {
     font-size: 28px;
     padding-bottom: 90px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .directions__container__countries {
+    max-width: 300px;
+    top: 400px;
+    transform: scale(0.8);
+  }
+  .business__container__description span {
+    font-size: 20px;
+  }
+  .business__container__description li span:nth-child(3) {
+    min-width: 80px;
+  }
+
+  .directions__container__description {
+    width: 100%;
+    padding: 0px 50px;
+  }
+  .directions {
+    background-size: 100% 100%;
+    min-height: 960px;
+  }
+  .directions__container__link {
+    margin-top: 350px;
+    width: 100%;
+  }
+  .business__container__description li {
+    width: auto;
   }
 }

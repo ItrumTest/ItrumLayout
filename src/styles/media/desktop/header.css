@@ -151,3 +151,11 @@ a:visited {
   padding: 16px 30px;
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 680px) {
+  .header__contact :nth-child(3) {
+    display: none;
+  }
+}
+
+
