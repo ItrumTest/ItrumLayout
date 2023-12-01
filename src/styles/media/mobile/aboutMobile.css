@@ -4,9 +4,12 @@
     background: none;
     max-width: 100%;
     width: 100%;
-    margin-top: -2800px;
+    margin-top: -2900px;
     overflow: hidden;
     z-index: 80;
+  }
+  .about__container__call__tablet {
+    display: none;
   }
 
   .about__container__img {
@@ -31,7 +34,7 @@
   .about__background__mobile {
     display: block;
     position: absolute;
-    top: 770px;
+    top: 800px;
     max-height: 633px;
     background-repeat: no-repeat;
     /* background-size: 100% 100%; */
@@ -50,7 +53,7 @@
   .about__background__mobile__decoration {
     display: block;
     position: absolute;
-    top: 1048px;
+    top: 1078px;
     z-index: -1;
   }
 

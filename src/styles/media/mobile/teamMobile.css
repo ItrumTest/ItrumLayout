@@ -3,31 +3,54 @@
     background: url("../../../../asserts/media/320/team/Rectangle46.png");
     background-repeat: no-repeat;
     width: 100%;
-    min-height: 1451px;
-    background-size: 100% 1451px;
+    min-height: 1520px;
+    background-size: 100% 1520px;
     z-index: 50;
+  }
+
+  .team__container__description {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding-left: 30px;
+    margin-top: 80px;
+    padding-top: 0px;
+    max-width: 320px;
+  }
+
+  .team__container__image__container {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    top: 240px;
+    height: 400px;
   }
 
   .team__container__img {
     content: url("../../../../asserts/media/320/team/back.png");
     left: 0px;
-    top: 220px;
+    top: 0px
   }
 
   .team__container__img__photo1 {
-    left: 150px;
-    top: 220px;
+    top: 0px;
+    left: auto;
+    right: 0px;
   }
 
   .team__container__img__photo2 {
     content: url("../../../../asserts/media/320/team/rogovaya-back-desktop.png");
     left: 0px;
-    top: 450px;
+    top: 240px;
   }
 
   .team__container {
+    /* height: 400px; */
     padding: 0px;
     padding-top: 30px;
+    /* padding-bottom: 130px; */
   }
 
   .team__container__description__slogan {
@@ -66,8 +89,9 @@
   }
 
   .team__container__link {
-    margin-top: 890px;
-    margin-left: -18px;
-    width: 272px;
+    margin-left: -5px;
+    margin-top: 330px;
+    /* margin-left: -18px; */
+    /* width: 272px; */
   }
 }

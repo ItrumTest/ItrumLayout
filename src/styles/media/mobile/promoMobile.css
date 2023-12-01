@@ -17,9 +17,8 @@
     position: absolute;
     top: 568px;
     width: 100%;
-    left: 0px;
-    padding: 0px;
-    margin: 0px;
+    /* background-size: 100% 1200px; */
+    min-height: 500px;
     z-index: -1;
   }
 
@@ -30,7 +29,7 @@
 
   .promo__tablet__image {
     left: 0px;
-    top: 193px;
+    top: 160px;
     content: url("../../../../asserts/media/320/promo/traveller-illustration-mobile1.png");
   }
 
@@ -48,15 +47,18 @@
   }
 
   .promo__text {
-    padding-top: 90px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    /* position: relative; */
+    width: 100%;
+    padding-top: 310px;
+    left: auto;
+    /* padding-left: 120px; */
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
     line-height: 22px;
-  }
-
-  .promo__text span {
-    width: 150px;
   }
 
   .promo__text h3 {
@@ -69,7 +71,7 @@
   }
 
   .promo__variants {
-    top: 700px;
+    top: 730px;
     width: 250px;
   }
   
@@ -127,6 +129,7 @@
     font-weight: 700;
     line-height: 20px;
     font-family: letsGoLight;
+    width: 100%;
     z-index: 70;
   }
 

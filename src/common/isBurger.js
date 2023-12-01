@@ -23,7 +23,7 @@ document.querySelector(".burger").addEventListener("click", function () {
   }
 
   document.getElementById("desktop_image").removeAttribute("class");
-  if (!ticking && window.screen.width <= 320) {
+  if (!ticking && window.screen.width <= 680) {
     document.getElementById("desktop_image").setAttribute("class", "header__navigation__logo__desktop ");
     document.getElementById("header").classList.remove("header__background");
   }
